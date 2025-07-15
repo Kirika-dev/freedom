@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>DIALOG MENU</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<script src="../vue.js"></script>
+</head>
+<style>
+	[v-cloak] {
+		display: none;
+	}
+</style>
+<body style="background: none">
+	<!-- <div v-if="active" id="app"> -->
+		<!-- <div class="dialog" v-cloak> -->
+			<!-- <div class="allbottom"> -->
+				<!-- <a>{{header}}</a> -->
+				<!-- <p>{{descheader}}</p> -->
+				<!-- <div class="textblock"> -->
+					<!-- <div class="textblock__text"> -->
+						<!-- {{textdialog}} -->
+					<!-- </div> -->
+				<!-- </div> -->
+				<!-- <div class="answerbtns"> -->
+					<!-- <div v-for="(item, index) in answers" @click="goclient(item.Event)" v-if="item.Text != null" class="btn"> -->
+						<!-- {{item.Text}} -->
+					<!-- </div> -->
+				<!-- </div> -->
+			<!-- </div> -->
+		<!-- </div> -->
+	<!-- </div> -->
+	<div v-if="active" class="dialognpc">
+		<div class="dialognpc_center">
+			<div class="dialognpc_center_header">
+				{{header}}
+				<p>{{descheader}}</p>
+			</div>
+			<div class="dialognpc_center_text">
+				{{textdialog}}
+			</div>
+			<div class="dialognpc_center_btns">
+				<div v-for="(item, index) in answers" @click="goclient(item.Event)" v-if="item.Text != null" class="dialognpc_center_btns_btn"><div class="dialognpc_center_btns_btn_hover"></div>{{item.Text}}</div>
+			</div>
+		</div>
+	</div>
+    <script src="./js/index.js"></script>
+	<script src="./js/library/jquery-3.2.1.min.js"></script>
+</body>
+</html>

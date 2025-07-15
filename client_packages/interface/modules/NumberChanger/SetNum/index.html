@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Change Number Merumond</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="../bebas-neue/stylesheet.css">
+</head>
+<style>
+	[v-cloak] {
+		display: none;
+	}
+</style>
+<body style="background: none">
+	<div v-if="active" id="app" v-cloak>
+		<div class="btnesc">
+			<a @click="exit()">ESC</a>
+			<p>Закрыть</p>
+		</div>
+		<div class="container">
+			<a>Установка номера</a>
+			<p>Выберите нужный номер</p>
+			<div class="list">
+				<div v-for="(item, index) in numbers" @click="btn(index)" :class="{ active: btns[index] }" class="block">
+					{{item}}
+				</div>
+			</div>
+			<div @click="change()" class="btnenter">Выбрать</div>
+		</div>
+		<div class="number">
+			<div class="textnum">Номер</div>
+			<a>{{num}}</a>
+			<img src="../img/num3.png" class="num">
+		</div>
+	</div>
+<script>
+	Vue.filter('formatThousands', (x) => {
+	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
+	})
+</script>
+<script src="js/changer.js"></script>
+</body>
+</html>

@@ -1,0 +1,685 @@
+.pochta {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(50% 88.89% at 50% 50%, rgba(22, 21, 35, 0) 0%, rgba(22, 21, 35, 0.75) 100%);
+  background-color: rgba(22,21,35,.80);
+  font-family: "PF DinDisplay Pro";
+  font-weight: 400;
+  text-shadow: 0 0 1vw #000000;
+  animation: opacity .1s linear;
+}
+
+.pochta__title {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 3vw;
+}
+
+.pochta__title h1 {
+  font-size: 1.5vw;
+  margin-top: -1vw;
+}
+
+.pochta__title p {
+  font-size: 1vw;
+  color: rgba(255, 255, 255, 0.644);
+}
+.pochta__table {
+  margin: 0 auto;
+  margin-top: 5vw;
+  width: 40vw;
+  padding-top: .5vw;
+  z-index: 2;
+}
+.pochta__center {
+  position: absolute;
+  left:50%;
+  top:0;
+  z-index: 1;
+  pointer-events: none;
+  width:45vw;
+  transform: translate(-50%,0);
+  height: 100%;
+  border-left: 0.2vw solid #f69a47;
+  border-right: 0.2vw solid #f69a47;
+}
+.pochta__logo {
+  position: absolute;
+  top: .9vw;
+  left: 1.5vw;
+  width: 8vw;
+}
+.pochta__svgl {
+  fill: #fff;
+  opacity: 0.02;
+  position: absolute;
+  right: 0;
+  pointer-events: none;
+  z-index: 1; 
+}
+.pochta__table__header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .9vw;
+  color: #fff;
+  /* border-bottom: .2vw solid #9478ff; */
+  padding: 0 1.5vw;
+  padding-bottom: .5vw;
+}
+
+.pochta__table__item1 {
+  width: 35%;
+}
+
+.pochta__table__item2 {
+  width: 45%;
+}
+
+.pochta__table__item3 {
+  width: 25%;
+}
+
+.pochta__table__main {
+  width: 100%;
+  height: 31vw;
+  color: #fff;
+  z-index: 10;
+  margin-top: 1vw;
+  overflow-y: scroll;
+}
+.pochta__table__main__item.active {
+  border: 0.25vw solid #f69a47;
+  background: #f69a47;
+}
+.pochta__table__main__item:hover {
+  border-color: #f69a47;
+}
+.pochta__table__main__item {
+  width: 100%;
+  display: -webkit-box;
+  transition: border-color, background .2s;
+  display: -ms-flexbox;
+  z-index: 10;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: .9vw;
+  border: 0.25vw solid #ffffff05;
+  padding: 1vw 0;
+  min-height: 4vw;
+  margin-bottom: .5vw;
+}
+
+.pochta__table__main .pochta__table__item3 {
+  margin-left: -2vw;
+}
+
+.pochta__table__main .pochta__tableActive {
+  border: .1vw solid #9478ff;
+}
+
+.pochta__table__main .pochta__table__item1 {
+  padding-left: 1.5vw;
+}
+
+.pochta__btns {
+  position: absolute;
+  font-family: Montserrat;
+  right: 1vw;
+  bottom: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pochta__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  font-family: Montserrat;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2vw;
+}
+
+.pochta__btn span {
+  display: block;
+  font-size: .8vw;
+  padding: .8vw 1.5vw;
+  background: rgba(0, 0, 0, 0.295);
+  color: rgba(255, 255, 255, 0.747);
+}
+
+.pochta__btn p {
+  margin-left: 1vw;
+  font-size: 1vw;
+  color: #fff;
+}
+
+.pochta_btnitem {
+	position: absolute;
+	right: 1vw;
+	bottom: 0vw;
+	font-family: Montserrat;
+	width: auto;
+	/* transform: translate(-50%,0); */
+	display: flex;
+}
+.pochta_btnitem a:hover,
+.pochta_btnitem.active a {
+	background: #fff;
+	color: #000;
+}
+.pochta_btnitem a {
+	padding-left: 1vw;
+	font-family: Montserrat;
+	padding-right: 1vw;
+	padding-top: 0.6vw;
+	font-size: 0.8vw;
+	position: relative;
+	padding-bottom: 0.6vw;
+	height: 2vw;
+	transition: background, color .2s;
+	background: #ffffff20;
+}
+.pochta_btnitem p {
+	position: relative;
+	margin-left: 1vw;
+	font-size: 0.8vw;
+	line-height: 2vw;
+	font-family: Montserrat;
+}
+
+.postmenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	letter-spacing: 0vw;
+	height: 100%;
+	background: rgba(22,21,35,.50)
+}
+.postmenu_postcard .postmenu_card_bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40vw;
+	overflow: hidden;
+	height: 25vw;
+	border-radius: .5vw;
+	transform: translate(-50%,-50%);
+}
+.postmenu_postcard {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40vw;
+	height: 25vw;
+	border-radius: .5vw;
+	transform: translate(-50%,-50%);
+	outline: .5vw solid #ebebeb;
+}
+.postmenu_input_text::before {
+	position: absolute;
+	top: .5vw;
+	left: .5vw;
+	width: 100%;
+	content: "";
+	height: 100%;
+	border-radius: .5vw;
+	border: .15vw dashed #fff;
+	opacity: 0.5;
+}
+.postmenu_input_text {
+	position: absolute;
+	left: 70%;
+	top: 55%;
+	background: white;
+	width: 18vw;
+	border: 0.1vw solid #00000040;
+	height: 12vw;
+	color: #000;
+	display: flex;
+	border-radius: .5vw;
+	transform: translate(-50%,-50%);
+}
+.postmenu_input_text textarea::placeholder {
+	color: #00000040;
+}
+.postmenu_btnchange:hover {
+	background: #c0c0c0
+}
+.postmenu_btnchange {
+	position: fixed;
+	transition: background .2s;
+	top: -.45vw;
+	z-index: 100;
+	right: -.45vw;
+	border-radius: .5vw;
+	background: #ebebeb;
+	width: 3vw;
+	height: 3vw;
+}
+.postmenu_btnchange svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1vw;
+	height: 1vw;
+}
+.postmenu_input_text textarea {
+	position: absolute;
+	top: .75vw;
+	left: 1vw;
+	width: 16vw;
+	height: 10.5vw;
+	background: none;
+	border: none;
+	outline: none;
+	font-family: "PF DinDisplay Pro";
+	resize: none;
+	font-size: .85vw;
+	font-weight: 500;
+}
+.postmenu_leftblock {
+	position: absolute;
+	top: 50%;
+	left: 3vw;
+	width: 15vw;
+	transform: translate(0,-50%);
+}
+.postmenu_leftblock p {
+	font-size: .9vw;
+}
+.postmenu_sender::placeholder {
+	color: #00000040;
+}
+.postmenu_sender {
+	position: relative;
+	margin-top: .5vw;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: .5vw;
+	height: 3vw;
+	width: 12vw;
+	padding-left: 1vw;
+	font-size: 1vw;
+	font-family: "PF DinDisplay Pro";
+	font-weight: 500;
+}
+.post_img {
+	position: absolute;
+	width: 42vw;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.postmenu_save:hover {
+	background: #ff7900;
+	color: #fff;
+}
+.postmenu_save {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 10vw;
+	height: 3vw;
+	transition: background .1s;
+	line-height: 3vw;
+	text-align: center;
+	border-radius: .5vw;
+	color: #000;
+	font-size: .9vw;
+	font-weight: 500;
+	background: #f69a47;
+	bottom: -1.5vw;
+}
+.postmenu_leftblock_block {
+	position: relative;
+	width: 13vw;
+	height: 3vw;
+	top: 1vw;
+	line-height: 3vw;
+	margin-top: .5vw;
+	border-bottom: 0.15vw dashed #ffffff80;
+}
+
+
+/*METRO*/
+.metro {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	letter-spacing: 0vw;
+	font-family: Montserrat;
+	border-radius: .5vw;
+	transform: translate(-50%,-50%);
+	width: 60vw;
+	height: 35vw;
+	background: rgba(255,255,255);
+}
+.metro_verticallines {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.metro_gorizontallines {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+	display: flex;
+}
+.metro_gorizontallines_line {
+	position: relative;
+	width: 0.1vw;
+	left: 1.6vw;
+	margin-left: 1.6vw;
+	height: 32vw;
+	top: 1.5vw;	
+	background: black;
+	opacity: 0.1;
+}
+#metro_namesstations {
+	text-align: center;
+}
+#metro_namesstations p {
+	opacity: .5;
+	color: #000;
+	text-decoration: none;
+}
+.metro_mapblock_station_1 {
+	position: absolute;
+	bottom: 5.5vw;
+	left: 12vw;
+	font-weight: 600;
+	font-size: .6vw;
+	text-decoration: underline;
+	color: #d99030;
+}
+.metro_mapblock_station_2 {
+	position: absolute;
+	bottom: 12vw;
+	left: 14.5vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_3 {
+	position: absolute;
+	bottom: 18.7vw;
+	left: 9.5vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_4 {
+	position: absolute;
+	bottom: 18.7vw;
+	left: 22vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_5 {
+	position: absolute;
+	bottom: 29vw;
+	left: 19vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_6 {
+	position: absolute;
+	bottom: 31vw;
+	left: 6vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_7 {
+	position: absolute;
+	bottom: 26vw;
+	left: 2vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_8 {
+	position: absolute;
+	bottom: 22.5vw;
+	left: 14.5vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_9 {
+	position: absolute;
+	bottom: 21.5vw;
+	left: 21.5vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_10 {
+	position: absolute;
+	bottom: 14.5vw;
+	left: 24.5vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_mapblock_station_11 {
+	position: absolute;
+	bottom: 28vw;
+	left: 22vw;
+	font-weight: 600;
+	font-size: .6vw;
+	color: #000;
+}
+.metro_verticallines_line {
+	position: relative;
+	width: 32vw;
+	left: 1.5vw;
+	top: 1.6vw;
+	height: 0.1vw; 
+	background: black;
+	opacity: 0.1;
+	margin-top: 1.6vw;
+}
+.metro_mapblock {
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	width: 35vw;
+	height:100%;
+}
+.metro_mapblock .metro_metromap {
+	width: 30vw;
+	position:absolute;
+	top: 50%;
+	pointer-events: none;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.metro header {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+}
+.metro header a {
+	font-size: .7vw;
+	color: #000;
+	font-weight: 500;
+}
+.metro header p {
+	color: red;
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+.metro_list {
+	position: absolute;
+	left: 1vw;
+	top: 4vw;
+	width: 25vw;
+	/* background: red; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.metro_list_item.this a {
+	color: #fff;
+}
+.metro_list_item.this p {
+	color: #fff;
+	opacity: .7;
+}
+.metro_list_item.this:hover {
+	background:red;
+}
+.metro_list_item.inactive:hover {
+	background: #00000010;
+}
+.metro_list_item.inactive {
+	opacity: .5;
+}
+.metro_list_item.this {
+	background: red;
+}
+.metro_list_item:hover {
+	background: #00000020;
+}
+.metro_list_item {
+	position: relative;
+	width: 12vw;
+	left: -.5vw;
+	background: #00000010;
+	height: 3vw;
+	border-radius: .2vw;
+	margin-top: .5vw;
+	top: -0.5vw;
+	/* background: green; */
+	margin-left: .5vw;
+}
+.metro_list_item a {
+	position: absolute;
+	top: .8vw;
+	left: .5vw;
+	font-weight: 500;
+	font-size: .7vw;
+	color: black;
+}
+.metro_list_item p {
+	position: absolute;
+	color: red;
+	top: 1.6vw;
+	font-weight: 500;
+	left: .5vw;
+	font-size: .6vw;
+}
+.metro_buy {
+	position: absolute;
+	left: 1vw;
+	top: 23vw;
+	width: 24.5vw;
+}
+.metro_buy_btn:hover {
+	box-shadow: 0 0 0 .15vw #ff000050;
+}
+.metro_buy_btn.inactive:hover {
+	box-shadow: 0 0 0 0vw #ff000050;
+}
+.metro_buy_btn.inactive {
+	background: #00000010;
+	color: #000;
+}
+.metro_buy_btn {
+	position: absolute;
+	width: 100%;
+	left: .1vw;
+	transition: box-shadow .2s;
+	height: 3vw;
+	background: red;
+	text-align: center;
+	line-height: 3vw;
+	border-radius: .2vw;
+	font-size: .7vw;
+	top: 8vw;
+}
+.metro_buy h1 {
+	color: red;
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+.metro_buy_leftinfo {
+	position: absolute;
+	top: 2vw;
+	left: 0.1vw;
+}
+.metro_buy_leftinfo a {
+	color: #000;
+	opacity: .7;
+	font-size: .6vw;
+}
+.metro_buy_leftinfo p {
+	font-size: 1vw;
+	color: #000;
+	font-weight: 500;
+}
+.metro_buy_rightinfo {
+	position: absolute;
+	top: 2vw;
+	float: right;
+	text-align: right;
+	right: 0.1vw;
+}
+.metro_buy_rightinfo a {
+	color: #000;
+	opacity: .7;
+	font-size: .6vw;
+}
+.metro_buy_rightinfo p {
+	font-size: 1vw;
+	color: #000;
+	font-weight: 500;
+}
+.slides-enter-active {
+    opacity: 0;
+    animation: slides 0.4s forwards;
+}
+.slides-leave-active {
+    animation: slidesOut 0.4s forwards;
+}
+
+
+@keyframes slides {
+    from {
+        opacity: 0;
+		transform: translate(-50%, -100%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes slidesOut {
+    from {
+		transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+		transform: translate(-50%, 100%);
+    }
+}

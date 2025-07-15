@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="fonts/font/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/index.css">
+	 <link rel="stylesheet" type="text/css" href="../../fonts/PFDinDisplayPro/stylesheet.css" />
+	<script src="../vue.js"></script>
+	<script src="./js/library/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div v-if="active" class="CreatorBlips">
+		<div v-if="modal.state != -1" class="CreatorBlips_modal">
+			<div class="CreatorBlips_modal_center">
+				<p>{{modal.header}}</p>
+				<input v-if="modal.state != 0" type="number" v-model="modal.model">
+				<input v-else type="text" v-model="modal.model">
+				<div @click="setData()" class="CreatorBlips_modal_center_btn">Установить</div>
+			</div>
+		</div>
+		<header>
+			<h1>Создание блипов</h1>
+			<span>Создавай блипы какие захочешь и настраивай их на свой вкус с помощью удобного интерфейса!</span>
+		</header>
+		<div class="CreatorBlips_main">
+			<div class="CreatorBlips_list">
+				<div v-for="(item, index) in blips" @click="selectBlip(index)" :class="{ selected: selectedID == index }" class="CreatorBlips_list_item">
+					<h1>#{{item.ID}}</h1>
+					<span>Блип: <a>{{item.BlipSettings.Name}}</a></span>
+					<div @click="RemoveBlip(item.ID)" class="CreatorBlips_remove">x</div>
+				</div>
+				<div @click="CreateBlip()" class="CreatorBlips_list_createbutton">Создать блип</div>
+			</div>
+			<div v-if="selectedItem != null" class="CreatorBlips_settings">
+				<header>Настройки блипа</header>
+				<div class="CreatorBlips_settings_block">
+					<p>Название:</p>
+					<a>{{selectedItem.BlipSettings.Name}}</a>
+					<div @click="openModal(0, 'Название')" class="CreatorBlips_settings_block_btn">Изменить</div>
+				</div>
+				<div class="CreatorBlips_settings_block">
+					<p>Спрайт:</p>
+					<a>{{selectedItem.BlipSettings.Sprite}}</a>
+					<div @click="openModal(1, 'Спрайт')" class="CreatorBlips_settings_block_btn">Изменить</div>
+				</div>
+				<div class="CreatorBlips_settings_block">
+					<p>Цвет:</p>
+					<a>{{selectedItem.BlipSettings.Color}}</a>
+					<div @click="openModal(4, 'Цвет')" class="CreatorBlips_settings_block_btn">Изменить</div>
+				</div>
+				<div class="CreatorBlips_settings_block">
+					<p style="top: 50%">Позиция:</p>
+					<div @click="ChangePosition()" class="CreatorBlips_settings_block_btn">На место игрока</div>
+				</div>
+				<div class="CreatorBlips_settings_block">
+					<p>Размер:</p>
+					<a>{{selectedItem.BlipSettings.Scale}}</a>
+					<div @click="openModal(2, 'Размер')" class="CreatorBlips_settings_block_btn">Изменить</div>
+				</div>
+				<div class="CreatorBlips_settings_block">
+					<p style="top: 50%">Отображение:</p>
+					<div @click="selectedItem.BlipSettings.ShortRange = !selectedItem.BlipSettings.ShortRange" class="CreatorBlips_settings_block_btn">{{selectedItem.BlipSettings.ShortRange}}</div>
+				</div>
+				<div class="CreatorBlips_settings_block">
+					<p>Дименшон:</p>
+					<a>{{selectedItem.BlipSettings.Dimension}}</a>
+					<div @click="openModal(3, 'Дименшон')" class="CreatorBlips_settings_block_btn">Изменить</div>
+				</div>
+				<div @click="TeleportToBlip(selectedItem.ID)" class="CreatorBlips_settings_button tp">Телепортироваться на блип</div>
+				<div @click="SaveBlips()" class="CreatorBlips_settings_button">Сохранить</div>
+			</div>
+		</div>
+	</div>
+<script src="./js/index.js"></script>
+</body>
+</html>

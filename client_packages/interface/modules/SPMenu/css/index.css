@@ -1,0 +1,123 @@
+body {
+	overflow: hidden;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	font-family: 'PF DinDisplay Pro';
+	font-weight: 400;
+	color: #fff;
+	-webkit-animation: fadeInFromNone 0.5s ease-out;
+	-moz-animation: fadeInFromNone 0.5s ease-out;
+	-o-animation: fadeInFromNone 0.5s ease-out;
+	animation: fadeInFromNone 0.5s ease-out
+}
+.btnesc {
+	position: absolute;
+	right: 2vw;
+	bottom: 1vw;
+	width: auto;
+	/* transform: translate(-50%,0); */
+	display: flex;
+}
+.btnesc a:hover,
+.btnesc.active a {
+	background: #fff;
+	color: #000;
+}
+.reload {
+	margin-right: 12vw;
+}
+.btnesc a {
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 0.6vw;
+	font-size: 0.8vw;
+	position: relative;
+	padding-bottom: 0.6vw;
+	height: 1vw;
+	transition: background, color .2s;
+	background: #ffffff20;
+}
+.btnesc p {
+	position: relative;
+	margin-left: 1vw;
+	font-size: 0.8vw;
+	line-height: 0.5vw;
+}
+.triugolnik {
+	position: absolute;
+	width: 30vw;
+	height: 30vw;
+	top: 50%;
+	right: -15vw;
+	opacity: 0.1;
+	background: #fff;
+	transform: translate(0,-50%) rotate(45deg);
+}
+.nameplayer {
+	position: absolute;
+	left: 50%;
+	top: 1.5vw;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5vw;
+	transform: translate(-50%,0);
+}
+.spectateplayer b {
+	font-size: 0.8vw;
+	font-weight: 400;
+	opacity: 0.5;
+	position: relative;
+	top: -1vw;
+	margin-left: 0.5vw;
+}
+.spectateplayer .specfor {
+	position: absolute;
+	text-align: center;
+	opacity: 0.5;
+	font-size: 0.9vw;
+	transform: translate(-50%,0);
+	left: 50%;
+}
+.spectateplayer {
+	position: absolute;
+	left: 50%;
+	top: 2vw;
+	width: 50vw;
+	height: 5vw;
+	transform: translate(-50%,0);
+}
+.information {
+	position: absolute;
+	right: 2vw;
+	top: 50%;
+	transform: translate(0,-50%);
+	height: 30vw;
+	width: 20vw;
+}
+.information header {
+	position: relative;
+	text-align: right;
+	font-size: 1.5vw;
+}
+.information .blockinform {
+	position: relative;
+	width: 20vw;
+	top: 1.6vw;
+	margin-top: 0.5vw;
+	height: 1.5vw;
+	font-size: 0.9vw;
+	border-bottom: 0.1vw solid #ffffff20;
+}
+.blockinform b {
+	font-weight: 400;
+	opacity: 0.5;
+}
+.blockinform a {
+	position: absolute;
+	text-align: left;
+	opacity: 0.7;
+}
+.blockinform p {
+	text-align: right;
+}

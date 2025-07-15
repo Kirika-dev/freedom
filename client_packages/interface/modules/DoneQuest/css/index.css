@@ -1,0 +1,227 @@
+body {
+	overflow: hidden;
+	user-select: none;
+	color: #fff;
+	font-family: Montserrat;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+#app {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* background: grey; */
+	background: radial-gradient(50% 100% at 50% 50%, rgba(22, 21, 35, 0) 0%, rgba(29, 27, 55, .80) 100%);
+	background-color: rgba(29, 27, 55, .70);
+	height: 100%;
+	animation: opacity .6s;
+}
+.congrats {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	top: 10vw;
+	font-size: 1vw;
+	text-align: center;
+}
+.congrats a {
+	font-size: 2.5vw;
+	color: #9478ff;
+	font-weight: 500;
+}
+.congrats p {
+	position: absolute;
+	top: 2vw;
+	font-size: 0.9vw;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 20vw;
+}
+.wenik {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 150vw;
+	opacity: .09;
+	animation: zoom .5s;
+}
+.cyl {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 17vw;
+	height: 17vw;
+	border-radius: 100vw;
+	border: 0.2vw solid #ffffff10;
+}
+.cyl a {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 50vw;
+	height: 3vw;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 2.5vw;
+	font-weight: 500;
+	text-shadow: 0 0 2.5vw #000;
+}
+.cyl h1 {
+	position: relative;
+	width: 0.7vw;
+	height: 0.7vw;
+	background: #9478ff;
+	transform: rotate(45deg);
+	left: 0;
+	top: 0;
+	top: 2.2vw;
+	left: -1.5vw;
+}
+.cyl b {
+	font-size: 0.9vw;
+	top: 7vw;
+	color: #9478ff;
+	font-weight: 500;
+	left: 52%;
+	position: absolute;
+	transform: translate(-50%,0);
+}
+.cylw {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 13vw;
+	animation: zoomsmall .5s;
+	opacity: 0.09;
+	transform: translate(-50%,-50%);
+}
+.gifts {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	top: 70%;
+	width: 35vw;
+	/* background: red; */
+	/* height: 2vw; */
+	/* height: 5vw; */
+}
+.gifts label {
+	position: absolute;
+	top: 0;
+	width: 13vw;
+	left: 0;
+	text-shadow: 0 0 1.5vw #000;
+	font-size: 0.8vw;
+}
+.slots {
+	position: absolute;
+	top: 2vw;
+	width: 20vw;
+	height: 4vw;
+	display: flex;
+	
+}
+.slot.active {
+	border-color: #ffffff00;
+	background: #ffffff10;
+}
+.item {
+	position: absolute;
+	width: 2vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.slot {
+	position: relative;
+	width: 3vw;
+	height: 3vw;
+	margin-left: 0.4vw;
+	left: -0.4vw;
+	border: 0.15vw solid #ffffff10;
+}
+.gifts .money a b {
+	color: #58ff64;
+	font-weight: 500;
+}
+.gifts .money a {
+	position: absolute;
+	left: 0.1vw;
+	top: 50%;
+	font-size: 0.8vw;
+	transform: translate(0%,-50%)
+}
+.gifts .money {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 10vw;
+	height: 8vw;
+}
+.ico {
+	width: 0.5vw;
+	margin-left: 0.5vw;
+}
+.pressenter {
+	position: absolute;
+	bottom: 1vw;
+	width: 14.5vw;
+	/* background: red; */
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.pressenter a:hover {
+	background; #ffffff30;
+}
+.pressenter a {
+	padding-left: 1vw;
+	padding-right: 1vw;
+	transition: background .2s;
+	padding-top: 0.6vw;
+	font-size: 0.8vw;
+	font-weight: 500;
+	padding-bottom: 0.6vw;
+	background: #ffffff20;
+}
+.pressenter p {
+	position: absolute;
+	top: -0.5vw;
+	left: 5.5vw;
+	opacity: 0.8;
+	font-size: 0.6vw;
+}
+@keyframes zoom {
+    0% {
+        width: 50vw;
+        opacity: 0;
+    }
+
+    100% {
+		width: 150vw;
+        opacity: .09;
+    }
+}
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes zoomsmall {
+    0% {
+        width: 1vw;
+        opacity: 0;
+    }
+
+    100% {
+		width: 13vw;
+        opacity: .09;
+    }
+}

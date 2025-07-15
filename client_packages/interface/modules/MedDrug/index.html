@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<link rel='stylesheet' href='./assets/css/styles.css'>
+<script src='https://cdn.jsdelivr.net/npm/vue@2'></script>
+<link rel="stylesheet" href="./assets/font/stylesheet.css">
+<title>Document</title>
+</head>
+<body>
+    <div class='drugmenu' v-if="active">
+        <header class="header">
+            <h1>Снятие наркозависимости</h1>
+            <span>Тут вы можете избавиться от ломки</span>
+        </header>
+        <main class="main">
+            <div class="main__title">Употребление наркотиков очень вредно для вашего здоровья.<br>Наш лечащий врач поможет вам избавиться от наркозависимости.</div>
+            <div class="main__decor"><div class="frs"></div><div class="f" v-for="f in 4"></div><div class="frs"></div></div>
+
+            <div class="content">
+                <div class="content__btns">
+                    <div class="content_btn">
+                        <div class="content_btn_img"><img src="./assets/images/1.svg" alt=""></div>
+                        <div class="content_btn_title">Вылечить сразу</div>
+                        <div class="content_btn_btn"  @click="pages(1)">Подробнее</div>
+                    </div>
+                    <div class="content_btn">
+                        <div class="content_btn_img"><img src="./assets/images/2.svg" alt=""></div>
+                        <div class="content_btn_title">Пройти курс</div>
+                        <div class="content_btn_btn"  @click="pages(2)">Подробнее</div>
+                    </div>
+                </div>
+                <div class="block" v-if="page==1">
+                    <div class="block__title">Вылечить сразу</div>
+                    <div class="block__discr">Это новейшая разработка, которая позволит избавиться от наркозависимости прямо сейчас. Стоимость: 200MC</div>
+                    <div class="block__btns">
+                        <div class="block__btn" @click="btn(1)" style="background: #7E38FF">Принять</div>
+                        <div class="block__btn" @click="pages(0)">Отмена</div>
+                    </div>
+                </div>
+                <div class="block" v-if="page==2">
+                    <div class="block__title">Пройти курс</div>
+                    <div class="block__discr">Эту таблетку можно принимать раз в сутки. Спустя время вы будете полностью здоровым. Стоимость одной таблетки: 2.000.000$</div>
+                    <div class="block__btns">
+                        <div class="block__btn" @click="btn(2)" style="background: #7E38FF">Принять</div>
+                        <div class="block__btn" @click="pages(0)">Отмена</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__btn">Выйти</div>
+        </main>
+
+        
+    </div>
+    <script src='./js/script.js'></script>
+</body>
+</html>

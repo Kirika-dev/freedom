@@ -1,0 +1,209 @@
+html{height:100%}
+body {
+	font-family: "Montserrat",sans-serif;
+	margin:0;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	color: #fff;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+
+.main {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width:63vw;
+	overflow: hidden;
+	height: 37vw;
+	background: #1D1D1D
+}
+.main header {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4vw;
+	background: #212121;
+	font-size: 1.5vw;
+	font-weight: 500;
+	line-height: 4vw;
+	padding-left: 2vw;
+}
+.listaparts {
+	position: relative;
+	left: 1vw;
+	width: 63vw;
+	height: 31vw;
+	/* background: red; */
+	top: 1vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow-Y: scroll;
+	overflow-X: hidden;
+}
+.blockapart:hover {
+	background: #ffffff10;
+}
+.blockapart.sell {
+	background: #937cff
+}
+.blockapart {
+	background: #191919;
+	transition: background .2s;
+	position: relative;
+	width: 20vw;
+	margin-left: 0.5vw;
+	left: -0.5vw;
+	margin-top: 0.5vw;
+	top: -0.5vw;
+	color: #fff;
+	height: 10vw;
+}
+.blockapart .name {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+	font-size: 1.2vw;
+	font-weight: 500;
+}
+.blockapart a {
+	position: absolute;
+	top: 4vw;
+	font-size: 0.7vw;
+	font-weight: 400;
+	left: 1vw;
+	color: #ffffff40;
+}
+.blockapart p {
+	position: absolute;
+	top: 3.4vw;
+	font-size: 1.2vw;
+	font-weight: 500;
+	left: 1vw;
+	/* color: #ffffff20; */
+}
+.blockapart b {
+	color: #fff;
+	font-weight: 500;
+}
+.blockapart .garage {
+	position: absolute;
+	bottom: 1vw;
+	left: 1vw;
+	color: #ffffff60;
+	font-size: 0.8vw;
+	font-weight: 400;
+}
+.blockapart .peoples {
+	position: absolute;
+	bottom: 1vw;
+	right: 1vw;
+	color: #ffffff60;
+	font-size: 0.8vw;
+	text-align: right;
+	font-weight: 400;
+}
+.modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 25vw;
+	height: 25vw;
+	overflow: hidden;
+	background: #1D1D1D;
+}
+.modal .pic {
+	position: absolute;
+	width: 100%;
+	height: 10vw;
+}
+.pic img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 115%;
+}
+.modal a {
+	position: absolute;
+	top: 17vw;
+	font-size: 0.7vw;
+	font-weight: 400;
+	opacity: 0.5;
+	left: 1vw;
+}
+.modal .name {
+	position: absolute;
+	top: 18vw;
+	left: 0.9vw;
+	font-weight: 500;
+	font-size: 1.15vw;
+}
+.modal p {
+	position: absolute;
+	top: 16.3vw;
+	font-size: 0.7vw;
+	font-weight: 400;
+	opacity: 0.5;
+	text-align: right;
+	right: 1vw;
+}
+.modal .price {
+	position: absolute;
+	top: 18vw;
+	text-align: right;
+	right: 0.9vw;
+	font-weight: 500;
+	font-size: 1.15vw;
+}
+.modal .btnenter:hover {
+	background: #937cff;
+}
+.modal .btnenter {
+	position: absolute;
+	transition: background .2s;
+	top: 22vw;
+	left: 0;
+	background: #232323;
+	width: 100%;
+	height: 3vw;
+	text-align: center;
+	line-height: 3vw;
+	font-size: 0.8vw;
+	font-weight: 500;
+}
+.modal .garage {
+	position: absolute;
+	top: 20.2vw;
+	left: 1vw;
+	font-size: 0.7vw;
+	color: #ffffff50;
+}
+.modal .peoples {
+	position: absolute;
+	top: 20.2vw;
+	right: 1vw;
+	text-align: right;
+	font-size: 0.7vw;
+	color: #ffffff50;
+}
+svg {
+	position: absolute;
+	top: 1vw;
+	right: 1vw;
+	width: 1vw;
+	height: 1vw;
+	z-index: 100;
+}
+.modal b {
+	color: #fff;
+	font-weight: 500;
+}
+::-webkit-scrollbar{width:2px}
+::-webkit-scrollbar-track{background:#555}
+::-webkit-scrollbar-thumb{background:#000}

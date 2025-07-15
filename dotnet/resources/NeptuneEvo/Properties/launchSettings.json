@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "NeptuneEvo": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\user\\Downloads\\freedomrp_ragemp.pro\\Freedom-Project\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\user\\Downloads\\freedomrp_ragemp.pro\\Freedom-Project"
+    }
+  }
+}

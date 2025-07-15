@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvo\obj\x64\Release\netcoreapp3.1\NeptuneEvo.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvo\obj\x64\Release\netcoreapp3.1\NeptuneEvo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvo\obj\x64\Release\netcoreapp3.1\NeptuneEvo.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvo\obj\x64\Release\netcoreapp3.1\NeptuneEvo.csproj.CoreCompileInputs.cache

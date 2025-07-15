@@ -1,0 +1,248 @@
+body {
+	overflow: hidden;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+* {
+	margin: 0;
+	font-family: 'Montserrat';
+}
+.CreatorBlips {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 45vw;
+	height: 30vw;
+	border-radius: .25vw;
+	background: #1c1c1c
+}
+.CreatorBlips header {
+	position: relative;
+	left: 1vw;
+	top: 1vw;
+	/* height: 3.2vw; */
+	width: 20vw;
+}
+.CreatorBlips header h1 {
+	color: #fff;
+	font-size: 1.1vw;
+	font-weight: 500;
+}
+.CreatorBlips header span {
+	font-weight: 400;
+	color: #ffffff40;
+	font-size: .7vw;
+}
+.CreatorBlips .CreatorBlips_list {
+	position: relative;
+	left: 0vw;
+	top: 0vw;
+	width: 28vw;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 100%;
+	/* background: red; */
+}
+.CreatorBlips .CreatorBlips_main {
+	position: relative;
+	left: 1vw;
+	top: 1.5vw;
+	width: 43vw;
+	height: auto;
+	display: flex;
+	height: 24.5vw;
+}
+.CreatorBlips .CreatorBlips_list .CreatorBlips_list_item.selected {
+	background: #ffffff40;
+}
+.CreatorBlips .CreatorBlips_list .CreatorBlips_list_item {
+	position: relative;
+	background: #ffffff20;
+	height: 3vw;
+	width: 100%;
+	transition: background .2s;
+	border-radius: .25vw;
+	margin-top: .5vw;
+	top: -.5vw;
+	overflow: hidden;
+}
+.CreatorBlips .CreatorBlips_list .CreatorBlips_list_item h1 { 
+	position: absolute;
+	left: -1vw;
+	top: 50%;
+	font-weight: 500;
+	color: #fff;
+	opacity: .1;
+	transform: translate(0,-50%);
+	font-size: 3vw;
+}
+.CreatorBlips .CreatorBlips_list .CreatorBlips_list_item span a {
+	color: #fff;
+}
+.CreatorBlips .CreatorBlips_list .CreatorBlips_list_item span {
+	font-size: .8vw;
+	color: #ffa800;
+	position: absolute;
+	top: 50%;
+	font-weight: 500;
+	transform: translate(0,-50%);
+	left: 1vw;
+}	
+.CreatorBlips_list_createbutton {
+	position: relative;
+	background: #ffa800;
+	height: 3vw;
+	margin-top: .5vw;
+	top: -.5vw;
+	width: 100%;
+	border-radius: .25vw;
+	overflow: hidden;
+	line-height: 3vw;
+	color: #fff;
+	font-size: .8vw;
+	text-align: center;
+}
+.CreatorBlips .CreatorBlips_settings {
+	position: relative;
+	width: 14vw;
+	left: 1vw;
+	top: -4vw;
+}
+.CreatorBlips .CreatorBlips_settings header {
+	font-size: 1.1vw;
+	color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-weight: 500;
+}
+.CreatorBlips_settings_block {
+	position: relative;
+	width: 100%;
+	height: 3vw;
+}
+.CreatorBlips_settings_block a {
+	position: absolute;
+	top: 65%;
+	transform: translate(0,-50%);
+	color: #fff;
+	font-weight: 500;
+	font-size: .8vw;
+}
+.CreatorBlips_settings_block p {
+	position: absolute;
+	top: 35%;
+	transform: translate(0,-50%);
+	color: #fff;
+	opacity: .5;
+	font-weight: 400;
+	font-size: .8vw;
+}
+.CreatorBlips_settings_block_btn {
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	padding-left: 1vw;
+	padding-right: 1vw;
+	line-height: 1.5vw;
+	height: 1.5vw;
+	font-size: .7vw;
+	color: #fff;
+	font-weight:500;
+	border-radius: .25vw;
+	right: 0;
+	text-align: center;
+	background: #ffa800;
+}
+
+.CreatorBlips_settings_button.tp {
+	background: #ffffff20;
+}
+.CreatorBlips_settings_button {
+	position: relative;
+	width: 100%;
+	height: 2.25vw;
+	text-align: center;
+	line-height: 2.25vw;
+	color: #fff;
+	font-size: .7vw;
+	border-radius: .25vw;
+	margin-top: .5vw;
+	top: -.5vw;
+	background: #ffa800;
+}
+.CreatorBlips_modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	height:100%;
+	border-radius: .25vw;
+	background: #1c1c1c99;
+}
+.CreatorBlips_modal_center p {
+	position: relative;
+	text-align: center;
+	font-size: 1vw;
+	color: #fff;
+	padding-top: .8vw;
+	font-weight: 500;
+	padding-bottom: .8vw;
+}
+.CreatorBlips_modal_center {
+	position: absolute;
+	top: 50%;
+	border-radius: .25vw;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #121212;
+	width: 15vw;
+	height: 10vw;
+}
+.CreatorBlips_modal_center input {
+	position: relative;
+	left: 1vw;
+	width: 12.8vw;
+	height: 3vw;
+	text-align: center;
+	color: #fff;
+	border-radius: .2vw;
+	background: none;
+	border: none;
+	outline: none;
+	background: #ffffff20;
+}
+.CreatorBlips_modal_center_btn {
+	position: relative;
+	background: #ffa800;
+	left: 1vw;
+	width: 13vw;
+	color: #fff;
+	text-align: center;
+	line-height: 2.5vw;
+	height: 2.5vw;
+	border-radius: .25vw;
+	margin-top: .5vw;
+}
+.CreatorBlips_remove {
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	width: 1vw;
+	height: 1vw;
+	background: #ffffff20;
+	color: #ffa800;
+	right: 1vw;
+	border-radius: 5vw;
+	text-align: center;
+	font-weight: 500;
+	font-size: .6vw;
+	line-height: 1vw;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}

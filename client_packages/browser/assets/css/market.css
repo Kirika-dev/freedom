@@ -1,0 +1,214 @@
+.market_menu {
+	position: absolute;
+	top: 0;
+	font-family: 'PF DinDisplay Pro';
+	right: 0;
+	width: 80vw;
+	height: 100%;
+	background: linear-gradient(-90deg, #161523 10%, #16152300 100%);
+}
+.market_menu header {
+	position: absolute;
+	top: 49%;
+	pointer-events: none;
+	transform: translate(0,-750%);
+	width: 28vw;
+	right: 7vw;
+	text-align: right;
+}
+.market_menu header h1 {
+	font-size: 2vw;
+	font-weight: 400;
+}
+.market_menu header p {
+	font-size: .8vw;
+	opacity: 0.6;
+	margin-top: -.3vw;
+}
+
+.market_items_item.active:hover {
+	background: #438cef;
+}
+.market_items {
+	position: absolute;
+	top: 50%;
+	right: 7vw;
+	justify-content: space-between;
+    flex-wrap: wrap;
+	display: flex;
+	width: 29vw;
+	transform: translate(0,-50%);
+}
+.market_items .market_items_item {
+	position: relative;
+	width: 9vw;
+	margin-top: .5vw;
+	height: 9vw;
+	transition: background .1s;
+	background: #ffffff20;
+	border: 0.2vw solid #ffffff20;
+}
+.market_items .market_items_item.disabled {
+	opacity: 0.5;
+}
+.market_items_item span {
+	position: absolute;
+	top: .5vw;
+	font-size: .9vw;
+	left: .5vw;
+}
+.market_items_item.active:hover b {
+	background: #fff;
+	color: #438cef;
+}
+.market_items_item b {
+	position: absolute;
+	bottom: -.05vw;
+	right: -.05vw;
+	transition: background, color .2s;
+	/* left: 50%; */
+	/* transform: translate(-50%,0); */
+	width: auto;
+	padding-left: .65vw;
+	padding-right: .65vw;
+	height: 1.3vw;
+	font-size: .7vw;
+	border-radius: .5vw 0 0 0;
+	white-space: nowrap;
+	line-height: 1.3vw;
+	background: #438cef;
+}
+.market_items_item .market_img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 6vw;
+	height: 6vw;
+}
+.market_list {
+	position: absolute;
+	top: 50%;
+	right: 1vw;
+	width: 4vw;
+	height: auto;
+	transform: translate(0,-50%);
+}
+.market_list_item {
+	position: relative;
+	width:4vw;
+	margin-top: .5vw;
+	top: -.5vw;
+	border-radius: .5vw;
+	height: 4vw;
+	background: #ffffff10;
+}
+.market_list_item.active {
+	background: #fff;
+}
+.market_list_item.disabe {
+	opacity: 0.5;
+}
+.market_list_item.active svg {
+	fill: #000;
+	opacity: 1;
+}
+.market_list_item.active span {
+	color: #000;
+	opacity: 1;
+}
+.market_list_item svg {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	height: 1.3vw;
+	width: 1.3vw;
+	opacity: 0.3;
+	transform: translate(-50%,-50%)
+}
+.market_list_item span {
+	position: absolute;
+	bottom: .6vw;
+	opacity: 0.4;
+	left: 50%;
+	transform: translate(-50%,0);
+	font-size: .6vw;
+}
+
+@keyframes logoAnim {
+	from {
+		width: 1vw;
+	}
+	to {
+		width: 12vw;
+	}
+}
+.logoblocks_btn {
+	position: absolute;
+	bottom: 1vw;
+	right: 1vw;
+	display: flex;
+	width: auto;
+	height: 2vw;
+	line-height: 2vw;
+	font-family: Montserrat;
+}
+.logoblocks_btn.active b,
+.logoblocks_btn b:hover {
+	background: #ffffff;
+	color: #000;
+}
+.logoblocks_btn b {
+	position: relative;
+	background: #ffffff20;
+	font-weight: 500;
+	padding-left: .8vw;
+	padding-right: .8vw;
+	font-size: .7vw;
+	height: 2vw;
+}
+.logoblocks_btn p {
+	position: relative;
+	margin-left: .8vw;
+	font-size: .7vw;
+}
+.logoblocks img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 0;
+	animation: logoAnim 1.5s forwards;
+	animation-delay: 1s;
+}
+.logoblocks_blackline {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 4.5vw;
+	z-index: -1;
+	background: black;
+}
+.logoblocks_blackline p {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	/* font-family: Montserrat; */
+	line-height: 4.5vw;
+}
+.logoblocks a {
+	position: absolute;
+	bottom: 1vw;
+	left: 50%;
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	opacity: 0;
+	text-transform: uppercase;
+	font-size: 1vw;
+	/* color: black; */
+	transform: translate(-50%,0);
+	animation: opacity 1s forwards;
+	animation-delay: 1s;
+}

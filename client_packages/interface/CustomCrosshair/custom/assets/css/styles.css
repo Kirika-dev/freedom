@@ -1,0 +1,241 @@
+.wrapper {
+  background: #020202;
+  width: 40vw;
+  height: 62vh;
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  width: 14vw;
+  height: 100%;
+  color: #fff;
+  position: relative;
+}
+
+.nav .header {
+  padding: 1.5vh 0;
+  text-align: center;
+  background: #1D1D1D;
+}
+
+.nav .header h1 {
+  font-size: 1.2vw;
+}
+
+.nav .header p {
+  margin-top: .3vw;
+  font-size: .6vw;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.nav__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav__item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 8vh;
+  color: #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background: #030303;
+}
+
+.nav__item:hover {
+  background: #1D1D1D;
+}
+
+.save {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  color: #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background: #030303;
+}
+
+.save:hover {
+  background: #1D1D1D;
+}
+
+.nav .active {
+  background: #1D1D1D;
+}
+
+.nav .exit {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 8vh;
+  color: #fff;
+  background: #ff004c;
+  position: absolute;
+  bottom: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.nav .exit:hover {
+  background: #ff000d;
+}
+
+.wrapper .main {
+  width: 26vw;
+  height: 100%;
+}
+
+.main .aim__menu {
+  width: 100%;
+  height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #3333338f;
+  position: relative;
+  overflow: hidden;
+}
+
+.main .aim__menu .aim {
+  position: absolute;
+  left: 50%;
+  top: 5vh;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.main .aim__menu .aim .gor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main .aim__menu .aim .vert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main .aim__menu img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 32vh;
+}
+
+.main__title {
+  text-align: center;
+  color: #fff;
+  padding: 1.5vh 0;
+}
+
+.main__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  appearance: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.main__inputs .colors {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr);
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1vh;
+}
+
+.main__inputs .color__item {
+  width: 3.5vh;
+  height: 3.5vh;
+  background: #000;
+}
+
+.main__inputs .color .active {
+  border: .3vh solid #ffffff;
+}
+
+.main__inputs .input {
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
+
+.main__inputs .input p {
+  margin-top: 1vh;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: .1vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: block;
+} 
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  background-color: #3a23be;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+}
+
+input[type='range']:focus {
+  outline: none;
+}

@@ -1,0 +1,347 @@
+.petrol {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Bebas Neue;
+	background: radial-gradient(50% 88.89% at 50% 50%, rgba(22, 21, 35, 0) 0%, rgba(22, 21, 35, 0.75) 100%);
+	background-color: rgba(22,21,35,.80);
+}
+.petrol_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 39.5vw;
+	height: 40vw;
+	/* background: red; */
+	transform: translate(-50%,-50%);
+}
+.petrol_header {
+	position: relative;
+	width: 100%;
+	height: 5vw;
+	font-size: 2.5vw;
+}
+.petrol_header a {
+	font-weight: 500;
+}
+.petrol_header p {
+	font-weight: 300;
+	font-size: 3vw;
+	margin: 0;
+}
+.petrol_main {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 34vw;
+	top: 1vw;
+}
+.petrol_main_mains {
+	position: relative;
+	width: 32vw;
+	left: 1vw;
+	height: 100%;
+}
+.petrol_pistol {
+	position: absolute;
+	top: 70%;
+	z-index: -1;
+	opacity: .6;
+	transform: translate(0,-50%) rotate(40deg);
+	width: 80vw;
+	right: -20vw;
+	animation: slidePistol 4s;
+}
+@keyframes slidePistol {
+	from {
+		right: -100vw
+	}
+	to {
+		/* right: -20vw; */
+	}
+}
+.petrol_main_mains_listnum {
+	position: relative;
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	top: 1vw;
+}
+
+.petrol_load {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: radial-gradient(50% 88.89% at 50% 50%, rgba(22, 21, 35, 0) 0%, rgba(22, 21, 35, 0.75) 100%);
+	background-color: rgba(22,21,35,.90);
+}
+.petrol_load_lineactive {
+	position: absolute;
+	width: 0vw;
+	height: .4vw;
+	left: 0;
+	box-shadow: 0 0 2vw .1vw #a4a4ef50;
+	top: 0;
+	border-radius: .3vw;
+	background: #a4a4ef;
+}
+.petrol_load header {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	font-size: 1vw;
+	font-family: Montserrat;
+	transform: translate(-50%,-50%);
+}
+.petrol_load_line {
+	position: absolute;
+	border-radius: .3vw;
+	top: 50%;
+	left: 50%;
+	width: 50vw;
+	height: .4vw;
+	background: #ffffff20;
+	transform: translate(-50%,-50%);
+}
+
+.petrol_main_btnbuy:hover {
+	box-shadow: 0 0 2vw .2vw #a4a4ef50;
+}
+.petrol_main_btnbuy {
+	transition: box-shadow .2s;
+	position: absolute;
+	bottom: 0;
+	left: -8vw;
+	width: 39.5vw;
+	text-align: center;
+	line-height: 4vw;
+	border-radius: .25vw;
+	font-size: 1vw;
+	letter-spacing: .2vw;
+	height: 4vw;
+	background: #a4a4ef;
+}
+
+.petrol_main_catsbuy {
+	position: relative;
+	width: 100%;
+	height: 12vw;
+	top: 2.25vw;
+	/* background: red; */
+}
+.petrol_main_catsbuy_itemslist {
+	position: absolute;
+	width: auto;
+	left: 50%;
+	transform: translate(-50%,0);
+	display: flex;
+}
+.petrol_main_headercat {
+	position: relative;
+	height: 2vw;
+	line-height: 2vw;
+	font-size: .9vw;
+	font-family: Montserrat;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+}
+.petrol_repair {
+	position: absolute;
+	top: 2vw;
+	width: 12vw;
+	left: 10vw;
+}
+.petrol_main_catsbuy_item p {
+	position: absolute;
+	bottom: 1vw;
+	right: .5vw;
+	font-size: 2vw;
+	z-index: 1;
+	color: #e2e2ff;
+	text-shadow: 0 0 .2vw #00000050;
+}
+.petrol_main_catsbuy_item:hover{
+	border-color: #a4a4ef;
+}
+.petrol_main_catsbuy_item{
+	position: relative;
+	width: 10vw;
+	margin-left: 1vw;
+	left: -1vw;
+	overflow: hidden;
+	height: 10vw;
+	background: #ffffff20;
+	border-radius: .5vw;
+	border: 0.15vw solid #ffffff20;
+}
+.petrol_main_catsbuy_item a {
+	position: absolute;
+	right: .5vw;
+	top: .5vw;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+.petrol_main_catsbuy_item img {
+	position: absolute;
+	bottom: -5vw;
+	left: -5vw;
+	transform: rotate(20deg);
+}
+.petrol_input {
+	position: relative;
+	width: 10vw;
+	height: 3.5vw;
+	border: none;
+	background: #ffffff20;
+	outline: none;
+	text-align: center;
+	color: #fff;
+	top: 1vw;
+	font-family: Montserrat;
+	font-size: .9vw;
+	border-radius: .25vw;
+	border: 0.1vw solid #ffffff30;
+}
+
+.petrol_main_information {
+	position: absolute;
+	top: 12vw;
+	left: 11vw;
+}
+.petrol_main_information a {
+	opacity: .2;
+	font-size: .8vw;
+	letter-spacing: .1vw;
+}
+.petrol_main_information p {
+	font-size: 2.5vw;
+	font-weight: 500;
+}
+
+.petrol_main_mains_listnum_num {
+	position: relative;
+	width: 7vw;
+	height: 9vw;
+	left: -.5vw;
+	text-align: center;
+	font-size: 5vw;
+	border-radius: .5vw;
+	margin-left: .5vw;
+	line-height: 9vw;
+	border: 0.1vw solid #ffffff30;
+	background: #ffffff20;
+}
+.petrol_main_types {
+	position: relative;
+	width: 7vw;
+	height: 100%;
+}
+.petrol_main header {
+	opacity: .2;
+	font-size: .9vw;
+	letter-spacing: .1vw;
+}
+.petrol_main_types_cat.active,
+.petrol_main_types_cat:hover {
+	border-color: #6b6bc7;
+}
+.petrol_main_types_cat:nth-child(3).active,
+.petrol_main_types_cat:nth-child(3):hover {
+	border-color: #d88d4b;
+}
+.petrol_main_types_cat:nth-child(3) svg {
+	stroke: #d88d4b;
+}
+.petrol_main_types_cat:nth-child(3) {
+	border-color: #d88d4b30
+}
+
+.petrol_main_types_cat:nth-child(4).active,
+.petrol_main_types_cat:nth-child(4):hover {
+	border-color: #4b8ad8;
+}
+.petrol_main_types_cat:nth-child(4) svg {
+	stroke: #4b8ad8;
+}
+.petrol_main_types_cat:nth-child(4) {
+	border-color: #4b8ad830
+}
+
+.petrol_main_types_cat {
+	position: relative;
+	width: 7vw;
+	margin-top: .5vw;
+	top: .5vw;
+	height: 7vw;
+	transition: border-color .1s;
+	overflow: hidden;
+	border-radius: 1vw;
+	border: .15vw solid #6b6bc730;
+}
+.petrol_main_types_cat_bigtext {
+	position: absolute;
+	bottom: 1.5vw;
+	font-size: 1.5vw;
+	left: .8vw;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+.petrol_main_types_cat_smalltext {
+	position: absolute;
+	bottom: .9vw;
+	font-size: .7vw;
+	left: .8vw;
+	color: #a4a4ef;
+	opacity: .7;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+.petrol_main_types_cat svg {
+	position: absolute;
+	bottom: 0;
+	width: 15vw;
+	stroke: #6b6bc7;
+	/* fill:  */
+}
+.petrol_main_types_cat svg g use:nth-child(1) {
+    fill: var(--color-fill);
+    animation: move_s1 6s linear infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    opacity: .6;
+}
+.petrol_main_types_cat svg g use:nth-child(2) {
+    fill: var(--color-fill);
+    animation: move_s2 7s linear infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+}
+.petrol_main_types_cat svg g use:nth-child(3) {
+    fill: var(--color-fill);
+    animation: move_s2 9s linear infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    opacity: .8;
+}
+
+
+.main-stop {
+  stop-color: transparent;
+}
+.alt-stop {
+  stop-color: #6b6bc7;
+}
+.main-stop2 {
+  stop-color: transparent;
+}
+.alt-stop2 {
+  stop-color: #d88d4b;
+}
+@keyframes move_s1 {from { transform: translate(-4.6875vw);} to {  transform: translate(4.6875vw); }}
+@keyframes move_s2 {from {transform: translate(4.6875vw); }to { transform: translate(-4.6875vw); }}

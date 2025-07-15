@@ -1,0 +1,84 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link href="css/styleapart.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link href="fonts/TTNorms/stylesheet.css" rel="stylesheet" type="text/css">
+      <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	  <script src="../vue.js"></script>
+	  <style>
+		[v-cloak] {
+			display: none;
+		}
+	</style>
+   </head>
+   <body>
+   <div id="app" v-if="active">
+		<div class="main" v-if="!modal">
+			<svg v-on:click="hide()" style="top: 1.5vw; right: 1.5vw;" version="1.1" id="Layer_1" fill="#fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+				<polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23 
+					185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+			</svg>
+			<header>
+				{{name}}
+			</header>
+			<div class="listaparts">
+				<div v-for="item in apartlist" class="blockapart" :class="{'sell': item[1] === ''}" @click="openmodal(item)">
+					<div class="name">Квартира №{{item[0]}}</div>
+					<a v-if="item[1] != ''">Владелец</a>
+					<a v-else>Продается</a>
+					<p v-if="item[1] != ''">{{item[1].replace('_', ' ')}}</p>
+					<p v-else>Цена: {{item[2] | formatThousands}}</p>
+					<div class="garage">Гаражных мест: <b>{{item[3]}}</b></div>
+					<div class="peoples">Жильцов: <b>{{item[4]}}</b></div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" v-if="modal">
+			<svg v-on:click="hide()" version="1.1" id="Layer_1" fill="#fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+			<polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23 
+				185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+			</svg>
+			<div class="pic">
+				<a>Недвижимость</a>
+				<div class="name">Квартира №{{selectapart[0]}}</div>
+				<p v-if="selectapart[1] != ''">Владелец</p>
+				<p v-else>Продается!</p>
+				<div v-if="selectapart[1] != ''" class="price">{{selectapart[1].replace('_', ' ')}}</div>
+				<div v-else class="price">Цена: {{selectapart[2] | formatThousands}}</div>
+				<img :src="'./img/' + id + '.png'">
+				<div class="garage">Гаражных мест: <b>{{selectapart[3]}}</b></div>
+				<div class="peoples">Жильцов: <b>{{selectapart[4]}}</b></div>
+				<div v-on:click="interact(selectapart[0])" v-if="selectapart[1] == ''" class="btnenter">Купить</div>
+				<div v-on:click="interact(selectapart[0])" v-else class="btnenter">Войти</div>
+			</div>
+		</div>
+	</div>
+   <!-- <div v-cloak class="main" v-if="!active"> -->
+        <!-- <div class="list"> -->
+            <!-- <h1>Список квартир</h1> -->
+            <!-- <div id="exit" class="exit" v-on:click="hide()"><i class="fas fa-times"></i></div> -->
+            <!-- <div class="scr"> -->
+			<!-- <div class="blockkv" v-for="data in apartlist"> -->
+			   <!-- <p class="name">Квартира №{{data[0]}}</p> -->
+               <!-- <p class="vl" v-if="data[1] != ''" ><small>Владелец:</small>{{data[1]}}</p> -->
+			   <!-- <p class="vlno" v-else ><small>Продается за:</small>{{data[2]}}</p> -->
+			   <!-- <div class="gm"><p>Гаражных мест: {{data[3]}}</p></div> -->
+			   <!-- <div class="jil"><p>Жильцов: {{data[4]}}</p></div> -->
+			   <!-- <div class="buy btn" v-on:click="interact(data[0])"> -->
+					<!-- <p v-if="data[1] == ''" class="go">Купить</p> -->
+					<!-- <p v-else class="enter">Войти</p> -->
+			   <!-- </div> -->
+            <!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+	<!-- </div> -->
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/apart.js"></script>
+	<script>Vue.filter('formatThousands', (x) => {return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");})</script>
+		
+   </body>
+</html>

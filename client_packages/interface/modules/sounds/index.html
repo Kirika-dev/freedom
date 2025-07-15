@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link href="http://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+    <title>Freedom - Sounds</title>
+</head>
+<body>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.core.min.js"></script>
+<script>
+	var petrolSound = null;
+	function playPetrolSound(music, vol = 1) {
+		if (petrolSound != null) {
+			petrolSound.stop();
+			petrolSound.unload();
+			petrolSound = null;
+		}
+		petrolSound = new Howl({
+			src: [music],
+			loop: false,
+			volume: vol,
+		})
+		petrolSound.play()
+	}
+	var musicLast = null;
+	
+	var vol = 0.1;
+	var interval = 200;
+	var fadeout = null;
+	function stopMusic() {
+		fadeout = setInterval(
+		  function() {
+			if (vol > 0) {
+				vol -= 0.01;
+				musicLast.setVolume(vol);
+			}
+			else {
+				clearInterval(fadeout);
+				if (musicLast != null) {
+					musicLast.stop();
+					musicLast.unload();
+					musicLast = null;
+				}
+			}
+		  }, interval);
+	}
+	function playMusic(music, vol = 1) {
+		if (musicLast != null) {
+			musicLast.stop();
+			musicLast.unload();
+			musicLast = null;
+		}
+		musicLast = new Howl({
+			src: [music],
+			loop: false,
+			volume: vol,
+		})
+		musicLast.play()
+	}
+	function playSoundNavigator(music) {
+		var navigator = new Howl({
+			src: [music],
+			loop: false,
+			volume: 0.1
+		})
+		navigator.play()
+	}
+	function playSound(music, vol = 1) {
+		var sound = new Howl({
+			src: [music],
+			loop: false,
+			volume: vol,
+		})
+		sound.play()
+	}
+</script>
+</html>

@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Servers\\freedom\\dotnet\\resources\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\businesses\\autoshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\businesses\\autoshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\businesses\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\businesses\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC9916D-DC7A-4C44-B64F-C98F9E9EDBFC}|NeptuneEvoSDK\\NeptuneEvoSDK.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevosdk\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC9916D-DC7A-4C44-B64F-C98F9E9EDBFC}|NeptuneEvoSDK\\NeptuneEvoSDK.csproj|solutionrelative:neptuneevosdk\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\houses\\housemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\houses\\housemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\core\\player\\selecting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\core\\player\\selecting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\moneysystem\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\moneysystem\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\core\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\core\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\configs\\vehiclesname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\configs\\vehiclesname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\jobs\\employment\\truckers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\jobs\\employment\\truckers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\core\\player\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\core\\player\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\core\\systems\\drivingschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\core\\systems\\drivingschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\jobs\\employment\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\jobs\\employment\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC9916D-DC7A-4C44-B64F-C98F9E9EDBFC}|NeptuneEvoSDK\\NeptuneEvoSDK.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevosdk\\models\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC9916D-DC7A-4C44-B64F-C98F9E9EDBFC}|NeptuneEvoSDK\\NeptuneEvoSDK.csproj|solutionrelative:neptuneevosdk\\models\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\core\\world\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\core\\world\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevo\\core\\gamelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C862D4F-7204-4A68-9BC0-2AC9141F20CC}|NeptuneEvo\\NeptuneEvo.csproj|solutionrelative:neptuneevo\\core\\gamelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC9916D-DC7A-4C44-B64F-C98F9E9EDBFC}|NeptuneEvoSDK\\NeptuneEvoSDK.csproj|c:\\servers\\freedom\\dotnet\\resources\\neptuneevosdk\\mysql_logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC9916D-DC7A-4C44-B64F-C98F9E9EDBFC}|NeptuneEvoSDK\\NeptuneEvoSDK.csproj|solutionrelative:neptuneevosdk\\mysql_logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Selecting.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Player\\Selecting.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Core\\Player\\Selecting.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Player\\Selecting.cs",
+              "RelativeToolTip": "NeptuneEvo\\Core\\Player\\Selecting.cs",
+              "ViewState": "AgIAAG0DAAAAAAAAAADgv4wDAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T07:14:36.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DrivingSchool.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Systems\\DrivingSchool.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Core\\Systems\\DrivingSchool.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Systems\\DrivingSchool.cs",
+              "RelativeToolTip": "NeptuneEvo\\Core\\Systems\\DrivingSchool.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwNkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:32:59.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Jobs\\Employment\\Bus.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Jobs\\Employment\\Bus.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Jobs\\Employment\\Bus.cs",
+              "RelativeToolTip": "NeptuneEvo\\Jobs\\Employment\\Bus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEDAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:13:46.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Autoshop.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Businesses\\Autoshop.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Businesses\\Autoshop.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Businesses\\Autoshop.cs",
+              "RelativeToolTip": "NeptuneEvo\\Businesses\\Autoshop.cs",
+              "ViewState": "AgIAALUCAAAAAAAAAAAUwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:26:25.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MySQL.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvoSDK\\MySQL.cs",
+              "RelativeDocumentMoniker": "NeptuneEvoSDK\\MySQL.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvoSDK\\MySQL.cs",
+              "RelativeToolTip": "NeptuneEvoSDK\\MySQL.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAuwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Vehicle.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Core\\Vehicle.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Vehicle.cs",
+              "RelativeToolTip": "NeptuneEvo\\Core\\Vehicle.cs",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAAwF4CAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:27:08.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VehiclesName.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Configs\\VehiclesName.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Configs\\VehiclesName.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Configs\\VehiclesName.cs",
+              "RelativeToolTip": "NeptuneEvo\\Configs\\VehiclesName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:25:11.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Market.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\World\\Market.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Core\\World\\Market.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\World\\Market.cs",
+              "RelativeToolTip": "NeptuneEvo\\Core\\World\\Market.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:25:02.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameLog.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\GameLog.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Core\\GameLog.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\GameLog.cs",
+              "RelativeToolTip": "NeptuneEvo\\Core\\GameLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\MoneySystem\\Bank.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\MoneySystem\\Bank.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\MoneySystem\\Bank.cs",
+              "RelativeToolTip": "NeptuneEvo\\MoneySystem\\Bank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Main.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Main.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Main.cs",
+              "RelativeToolTip": "NeptuneEvo\\Main.cs",
+              "ViewState": "AgIAAKUNAAAAAAAAAADgv7gNAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Businesses\\Manager.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Businesses\\Manager.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Businesses\\Manager.cs",
+              "RelativeToolTip": "NeptuneEvo\\Businesses\\Manager.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HouseManager.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Houses\\HouseManager.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Houses\\HouseManager.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Houses\\HouseManager.cs",
+              "RelativeToolTip": "NeptuneEvo\\Houses\\HouseManager.cs",
+              "ViewState": "AgIAAE0GAAAAAAAAAADgv2AGAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Player\\Commands.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Core\\Player\\Commands.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Core\\Player\\Commands.cs",
+              "RelativeToolTip": "NeptuneEvo\\Core\\Player\\Commands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4LAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:24:36.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Truckers.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Jobs\\Employment\\Truckers.cs",
+              "RelativeDocumentMoniker": "NeptuneEvo\\Jobs\\Employment\\Truckers.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvo\\Jobs\\Employment\\Truckers.cs",
+              "RelativeToolTip": "NeptuneEvo\\Jobs\\Employment\\Truckers.cs",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAqwI0BAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T09:06:20.475Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CharacterData.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvoSDK\\Models\\CharacterData.cs",
+              "RelativeDocumentMoniker": "NeptuneEvoSDK\\Models\\CharacterData.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvoSDK\\Models\\CharacterData.cs",
+              "RelativeToolTip": "NeptuneEvoSDK\\Models\\CharacterData.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MySQL_Logs.cs",
+              "DocumentMoniker": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvoSDK\\MySQL_Logs.cs",
+              "RelativeDocumentMoniker": "NeptuneEvoSDK\\MySQL_Logs.cs",
+              "ToolTip": "C:\\Servers\\freedom\\dotnet\\resources\\NeptuneEvoSDK\\MySQL_Logs.cs",
+              "RelativeToolTip": "NeptuneEvoSDK\\MySQL_Logs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:23:16.371Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

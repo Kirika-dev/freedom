@@ -1,0 +1,266 @@
+*,*::after,*::before{margin: 0;padding: 0;box-sizing: border-box;}
+p,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0}
+
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: .5vh;
+    transform: translateX(-50%);
+    border-radius: .2vw;
+    padding: .2vh;
+    user-select: none;
+}
+.header{
+    width: 100%;
+    background: #211D1C;
+    border-radius: .2vw;
+    border: .5vh solid #323235;
+    &__title{
+        width: 100%;
+        font-family: 'Rubik';
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: .7vw;
+    }
+    .main{
+        display: flex;
+        padding: 0 .5vw;
+        .first{
+            display: flex;
+            align-items: center;
+            .btn{
+                width: 2.3vw;
+                height:  2.3vw;
+                background: rgb(56, 223, 51);
+                font-size: .8vw;
+                font-family: 'Rubik';
+                border-radius: .2vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .inputs{
+                display: grid;
+                grid-template-columns: 8vw 8vw;
+                &__item{
+                    display: flex;
+                    align-items: center;
+                    margin-left: .5vw;
+                    margin-bottom: 1vh;
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        font-family: 'Rubik';
+                        font-size: 1.2vh;
+                        margin-right: .3vw;
+                        color: rgb(78, 78, 78);
+                        text-align: center;
+                        .active{
+                            color: rgb(252, 121, 46);
+                        }
+                    }
+                    .input{
+                        width: 5vw;
+                        height: 5vh;
+                        border: .2vh solid #000;
+                        background: rgb(110, 31, 31);
+                        position: relative;
+                        padding: .2vw;
+                        &__bg{
+                            position: absolute;
+                            width: 5vw;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%,-50%);
+                            text-align: justify;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            z-index: 1;
+                            p{
+                                font-family: 'Digital-7', sans-serif;
+                                font-size: 3vw;
+                                color: rgba(0, 0, 0, 0.534);
+                            }
+                        }
+                        span{
+                            position: relative;
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            font-family: 'Digital-7', sans-serif;
+                            font-size: 3vw;
+                            text-align: right;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            z-index: 5;
+                            color: rgb(252, 121, 46);
+                        }
+                    }
+                    .lampochki{
+                        display: flex;
+                        height: 100%;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        margin-left: .3vw;
+                        .lampochka{
+                            width: 1vh;
+                            height:  1vh;
+                            border-radius: 50%;
+                            background: #000;
+                        }
+                        .active{
+                            background: rgb(252, 121, 46);
+                        }
+                    }
+                }
+            }
+        }
+        .second{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            margin-left: .5vw;
+            p{
+                color: #fff;
+                font-family: 'Rubik';
+                font-style: italic;
+                text-align: center;
+                font-size: .8vw;
+            }
+            .input{
+                width: 5vw;
+                height: 5.5vh;
+                border: .2vh solid #000;
+                background: rgb(0, 110, 33);
+                position: relative;
+                padding: .2vw;
+                margin: .5vh 0;
+                &__bg{
+                    position: absolute;
+                    width: 5vw;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    text-align: justify;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 1;
+                    p{
+                        font-family: 'Digital-7', sans-serif;
+                        font-size: 3vw;
+                        color: rgba(111, 255, 98, 0.363);
+                        font-style: normal;
+                    }
+                }
+                span{
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    font-family: 'Digital-7', sans-serif;
+                    font-size: 3vw;
+                    text-align: right;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    z-index: 5;
+                    color: rgb(122, 252, 46);
+                }
+            }
+            span{
+                display: block;
+                text-align: center;
+                color: #fff;
+                font-family: 'Rubik';
+                font-size: .7vw;
+            }
+        }
+    }
+}
+.footer{
+    margin: 0 auto;
+    width: 80%;
+    background: #211D1C;
+    border: .5vh solid #323235;
+    display: flex;
+    justify-content: space-around;
+    .item{
+        &__title{
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            font-family: "Rubik";
+            font-size: .8vw;
+        }
+        &__num{
+            background: #CAC7CC;
+            border-radius: .2vw;
+            &__title{
+                padding: .2vw .2vw 0 .2vw;
+                font-family: "rubik";
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                border-bottom: .2vh solid rgb(255, 238, 0);
+                .first{
+                    color: rgb(49, 49, 49);
+                    font-family: "rubik";
+                    font-size: .7vw;
+                }
+                .second{
+                    margin-left: .1vw;
+                    color: rgb(255, 0, 0);
+                    font-family: "rubik";
+                    font-size: .6vw;
+                    font-weight: bold;
+                }
+                .red{
+                    margin-left: .2vw;
+                    width: 1vw;
+                    height: .6vw;
+                    background: rgb(255, 0, 0);
+                    margin-bottom: .1vh;
+                }
+            }
+            p{
+                padding: .1vw;
+                color: #30246F;
+                font-size: 2.6vh;
+                text-align: center;
+                font-family: "rubik";
+                text-transform: uppercase;
+
+            }
+        }
+        .text{
+            color: rgb(131, 131, 131);
+            font-family: 'rubik';
+            font-size: 1vw;
+            text-align: center;
+        }
+    }
+}
+.item:last-child .item__num{
+    background: #30246F;
+    .item__num__title{
+        border-bottom: none;
+    }
+    .first{
+        padding: .1vh .2vw;
+        background: rgb(153, 153, 153);
+        color: rgb(31, 31, 31);
+    }
+    .second{
+        color: rgb(192, 189, 0);
+    }
+    p{
+        color: #CAE664;
+    }
+}   

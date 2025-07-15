@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    [v-cloak]{
+        display: none;
+    }
+</style>
+<body>
+    <div class="wrapper" v-if="active" v-cloak>
+        <nav>
+            <div class="nav">
+                <div class="header">
+                    <h1>Кастомный прицел</h1>
+                    <p>У вас есть возможность настроить прицел, комфортный для вас</p>
+                </div>
+                <div class="nav__container">
+                    <div class="nav__item" :class="{active: page == 0}" @click="pages(0)">Цвет</div>
+                    <div class="nav__item" :class="{active: page == 1}"@click="pages(1)">Толщина</div>
+                    <div class="nav__item" :class="{active: page == 2}"@click="pages(2)">Размер</div>
+                    <div class="nav__item" :class="{active: page == 3}"@click="pages(3)">Прозрачность</div>
+                    <div class="save" @click="save()">Сохранить</div>
+                    <div class="exit" @click="exit()">Выход</div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="main">
+                <div class="aim__menu">
+                    <img src="assets/img/person.png" alt="">
+                    <div class="aim">
+                        <div class="vert":style="vert"></div>
+                        <div class="gor":style="gor"></div>
+                    </div>
+                </div>
+                <div class="main__inputs">
+                    <div class="color" v-show="page == 0">
+                        <div class="main__title">Цвет прицела</div>
+                        <div class="colors">
+                            <div class="color__item" 
+                                v-for="color in colors"
+                                :style="{background: '#' + color[0]}"
+                                @click="forColor(color[0])"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="width" v-show="page == 1">
+                        <div class="main__title">Толщина прицела</div>
+                        <div class="input">
+                            <input type="range" v-model="getWidth" min="1" max="10">
+                            <p>{{getWidth}}</p>
+                        </div>
+                    </div>
+                    <div class="width" v-show="page == 2">
+                        <div class="main__title">Размер прицела</div>
+                        <div class="input">
+                            <input type="range" v-model="getheight" min="10" max="70">
+                            <p>{{getheight}}</p>
+                        </div>
+                    </div>
+                    <div class="width" v-show="page == 3">
+                        <div class="main__title">Прозрачность прицела</div>
+                        <div class="input">
+                            <input type="range" v-model="getOpacity" min="0" max="100">
+                            <p>{{getOpacity}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+    <script>
+        let navBTNS = document.querySelectorAll('.nav__item')
+        navBTNS.forEach(function(item) {
+            item.addEventListener("click", function(){
+                navBTNS.forEach(function(item) {
+                    item.classList.remove("active")
+                })
+                item.classList.add("active")
+            })
+        })
+        let colors = document.querySelectorAll('.color__item')
+        colors.forEach(function(item) {
+            item.addEventListener("click", function(){
+                colors.forEach(function(item) {
+                    item.classList.remove("active")
+                })
+                item.classList.add("active")
+            })
+        })
+    </script>
+</html>

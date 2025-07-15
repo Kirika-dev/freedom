@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>DIALOG MENU</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<script src="../vue.js"></script>
+</head>
+<style>
+	[v-cloak] {
+		display: none;
+	}
+</style>
+<body style="background: none">
+	<div v-if="active" id="app" v-cloak>
+		<img src="./wenik.svg" class="wenik">
+		<div class="congrats">
+			<a>Поздравляем!</a>
+			<p>Задание выполнено</p>
+		</div>
+		<div class="cyl">
+			<img src="./wenik.svg" class="cylw">
+			<a>{{namequest}}</a>
+			<b><h1></h1>{{descquest}}</b>
+			
+		</div>
+		<div class="gifts">
+			<div class="first">
+				<label>Награда</label>
+				<div class="money">
+					<a v-if="money != 0">{{money}} <b>$</b><b v-if="exp != 0" style="margin-left: 1.5vw; color: #ff9c00">{{exp}}<img src="./exp.svg" class="ico"></b></a>
+				</div>
+			</div>
+			<div style="margin-left: 10vw; position: absolute;" class="second">
+				<label>Дополнительная награда</label>
+				<div class="slots">
+					<div v-for="item in itemsbonus">
+						<div v-if="item != 0" class="slot active">
+							<!-- <img src="./603.png" class="item"> -->
+							<img :src="`../../assets/images/icons/items/`+ item + `.png`" class="item">
+						</div>
+						<div v-else class="slot">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="margin-left: 28vw; position: absolute;" class="second">
+				<label>Опц. награда</label>
+				<div class="slots">
+					<div v-for="item in itemsbonustwo">
+						<div v-if="item != 0" class="slot active">
+							<!-- <img src="./603.png" class="item"> -->
+							<img :src="`../../assets/images/icons/items`+ item + `.png`" class="item">
+						</div>
+						<div v-else class="slot">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pressenter">
+			<a @click="exit()">ENTER</a><p>Нажмите для продолжения</p>
+		</div>
+	</div>
+    <script src="./js/index.js"></script>
+	<script src="./js/library/jquery-3.2.1.min.js"></script>
+</body>
+</html>

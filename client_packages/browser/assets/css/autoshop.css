@@ -1,0 +1,340 @@
+.autoshop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	letter-spacing: 0;
+	background: radial-gradient(50% 88.89% at 50% 50%, rgba(22, 21, 35, 0) 0%, rgba(22, 21, 35, 0.25) 100%);
+	background-color: rgba(22,21,35,.10);
+}
+.autoshop_left {
+	position: absolute;
+	top: 5%;
+	left: 1vw;
+	width: 25vw;
+	height: 90%;
+}
+.autoshop_left_marks {
+	position: absolute;
+	left: 0;
+	width: 5vw;
+	height: 100%;
+}
+.autoshop_left_models_block.active,
+.autoshop_left_models_block:hover,
+.autoshop_left_marks_block.active,
+.autoshop_left_marks_block:hover {
+	background: #438cef
+}
+.autoshop_left_marks_block {
+	position: relative;
+	width: 4vw;
+	height: 4vw;
+	border-radius: .5vw;
+	margin-top: .5vw;
+	top: -.5vw;
+	transition: background .1s;
+	background: rgba(22,21,35);
+}
+.autoshop_left_marks_block img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 3vw;
+}
+
+.autoshop_left_models {
+	position: absolute;
+	left: 5vw;
+	top: 3vw;
+	width: 20vw;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 90%;
+}
+.autoshop_left_models_block {
+	position: relative;
+	width: 100%;
+	height: 3vw;
+	border-radius: .3vw;
+	margin-top: .2vw;
+	transition: background .1s;
+	top: -0.2vw;
+	background: rgba(22,21,35);
+}
+.autoshop_left_models_block p {
+	position: absolute;
+	top: 50%;
+	font-size: .6vw;
+	transform: translate(0,-50%);
+	left: .5vw;
+}
+.autoshop_left_models_block a {
+	position: absolute;
+	top: 50%;
+	font-size: .6vw;
+	transform: translate(0,-50%);
+	right: .5vw;
+}
+.autoshop header {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	top: 2vw;
+	font-size: 1vw;
+	text-shadow: 0 0 .5vw #00000050;
+	font-weight: 500;
+}
+.autoshop_right {
+	position: absolute;
+	top: 50%;
+	width: 30vw;
+	right: 1vw;
+	transform: translate(0,-50%);
+}
+.autoshop_right_header {
+	width: auto;
+	float: right;
+	height: 1.5vw;
+	line-height: 1.5vw;
+	text-align: right;
+	display: flex;
+}
+.autoshop_right_nameauto {
+	position: relative;
+	text-shadow: 0 0 .3vw #00000050;
+	font-size: 1.3vw;
+}
+.autoshop_right_numbers {
+	display: flex;
+	width: auto;
+	margin-left: 1vw;
+}
+.autoshop_right_numbers b {
+	font-size: 1.6vw;
+	font-weight: 500;
+}
+.autoshop_right_numbers a {
+	font-size: .7vw;
+	opacity: .75;
+	margin-left: .2vw;
+}
+.autoshop_right_description {
+	position: relative;
+	margin-top: .5vw;
+	opacity: .9;
+	min-height: 1.2vw;
+	min-width: 10vw;
+	text-shadow: 0 0 .3vw #00000050;
+	font-weight: 300;
+	float: right;
+	text-align: right;
+	font-size: .7vw;
+}
+.autoshop_right_colors {
+	position: relative;
+	width: auto;
+	margin-top: 1vw;
+	float: right;
+	text-align: right;
+}
+.autoshop_right_colors p {
+	font-size: .8vw;
+	opacity: .7;
+	text-shadow: 0 0 .3vw #00000050;
+	font-weight: 500;
+}
+.autoshop_right_colors_list {
+	position: relative;
+	height: 1.75vw;
+	width: 16vw;
+	margin-top: .5vw;
+	display: flex; 
+}
+.autoshop_right_colors_list_cyl {
+	background: grey;
+	width: 1.75vw;
+	float: right;
+	height: 1.75vw;
+	margin-left: .5vw;
+	border-radius: 20vw;
+}
+.red-cycle {
+	background: red;
+}
+.white-cycle {
+	background: white;
+}
+.grey-cycle {
+	background: grey;
+}
+.black-cycle {
+	background: black;
+}
+.orange-cycle {
+	background: orange;
+}
+.purple-cycle {
+	background: #8443ef;
+}
+.blue-cycle {
+	background: #438cef;
+}
+.autoshop_right_colors_list_cyl_selected {
+	position: absolute;
+	top: -.2vw;
+	box-shadow: 0 0 1vw .0005vw #00000050;
+	margin-left: 1.2vw;
+	width: .8vw;
+	height: .8vw;
+	border: 0.1vw solid #fff;
+	background: #000;
+	border-radius: 1vw;
+}
+.autoshop_right_colors_list_cyl_selected img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: .4vw;
+	transform: translate(-50%,-50%);
+}
+.autoshop_right_details {
+	position: relative;
+	float: right;
+	width: 20vw;
+	height: 2vw;
+	margin-top: 1vw;
+	text-align: right;
+}
+.autoshop_right_details a {
+	font-size: .8vw;
+	opacity: .7;
+	text-shadow: 0 0 .3vw #00000050;
+	font-weight: 500;
+}
+.autoshop_right_details p {
+	font-size: 1.4vw;
+	margin-top: .4vw;
+	text-shadow: 0 0 .3vw #00000050;
+	font-weight: 500;
+}
+.autoshop_right_btns {
+	position: relative;
+	height: 3vw;
+	width: auto;
+	float: right;
+	margin-top: 2vw;
+	display: flex;
+}
+.autoshop_right_btns_btn.buy:hover {
+	background: #fff;
+	color: #000;
+}
+.autoshop_right_btns_btn.buy {
+	background: #438cef;
+}
+.autoshop_right_btns_btn:hover {
+	background: #438cef;
+	color: #fff;
+}
+.autoshop_right_btns_btn {
+	padding-left: 1.4vw;
+	line-height: 3vw;
+	font-size: .65vw;
+	margin-left: .25vw;
+	transition: background .2s;
+	padding-right: 1.4vw;
+	background: rgba(22,21,35);
+}
+.autoshop_left_models_filter {
+	position: absolute;
+	top: 0;
+	left: 5vw;
+	width: 19vw;
+	height: 2.5vw;
+	border-radius: .25vw;
+	line-height: 2.5vw;
+	font-size: .7vw;
+	padding-left: 1vw;
+	background: rgba(22,21,35);
+}
+.autoshop_left_models_filter svg {
+	position: absolute;
+	top: 50%;
+	right: 1vw;
+	transform: translate(0,-50%);
+	width: 1vw;
+}
+.autoshop_modal {
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.autoshop_modal_block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 15vw;
+	box-shadow: 0 0 2vw .5vw rgba(22,21,35,.5);
+	height: 9.7vw;
+	transform: translate(-50%,-50%);
+	background: rgba(22,21,35);
+	border-radius: .25vw;
+}
+.autoshop_modal_block_btns {
+	position: relative;
+	margin-top: 1vw;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 12vw;
+	height: 3vw;
+	display: flex;
+}
+.autoshop_modal_block_btns_btn:hover {
+	background: #438cef;
+	border: .15vw solid #ffffff50;
+}
+.autoshop_modal_block_btns_btn {
+	position: relative;
+	width: 100%;
+	font-size: .7vw;
+	height: 3vw;
+	background: #ffffff05;
+	border-radius: .25vw;
+	text-align: center;
+	line-height: 2.70vw;
+	margin-left: .5vw;
+	left: -.5vw;
+	border: .15vw solid #ffffff00;
+}
+.autoshop_modal_block_header {
+	width: 100%;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 1vw;
+	font-size: .8vw;
+}
+.autoshop_modal_block_line {
+	position: relative;
+	width: 4vw;
+	margin-top: .5vw;
+	height: .2vw;
+	background: #438cef;
+	border-radius: 10vw;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.autoshop_modal_block_text {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 10vw;
+	font-weight: 400;
+	text-align: center;
+	font-size: .7vw;
+	margin-top: .5vw;
+}

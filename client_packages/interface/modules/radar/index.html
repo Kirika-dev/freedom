@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" v-if="active">
+        <header>
+            <div class="header">
+                <div class="header__title">Front Antenna</div>
+                <div class="main">
+                    <div class="first">
+                        <div v-if="radar" @click="funcradar()" class="btn">ON</div>
+                        <div v-else @click="funcradar()" class="btn" style="background: red;">OFF</div>
+                        <div class="inputs">
+                            <div class="inputs__item">
+                                <div class="text">
+                                    <p class="active">123</p>
+                                    <p class="">123</p>
+                                    <p class="active">123</p>
+                                </div>
+                                <div class="input">
+                                    <div class="input__bg"><p>888</p></div>
+                                    <span>{{info.up.front}}</span>
+                                </div>
+                                <div class="lampochki">
+                                    <div v-if="info.up.front > 0" class="lampochka active"></div>
+                                    <div v-else class="lampochka"></div>
+									<div class="lampochka"></div>
+                                </div>
+                            </div>
+                            <div class="inputs__item">
+                                <div class="text">
+                                    <p>123</p>
+                                    <p>123</p>
+                                    <p>123</p>
+                                </div>
+                                <div style="background: #4e0a0b;" class="input">
+                                    <div class="input__bg"><p>888</p></div>
+                                    <span style="color: red;">{{info.up.fast}}</span>
+                                </div>
+                                <div class="lampochki">
+                                    <div v-if="info.up.fast > 0" class="lampochka active"></div>
+                                    <div v-else class="lampochka"></div>
+									<div class="lampochka"></div>
+                                </div>
+                            </div>
+                            <div class="inputs__item">
+                                <div class="text">
+                                    <p>123</p>
+                                    <p>123</p>
+                                    <p>123</p>
+                                </div>
+                                <div class="input red">
+                                    <div class="input__bg"><p>888</p></div>
+                                    <span>{{info.down.rear}}</span>
+                                </div>
+                                <div class="lampochki">
+                                    <div v-if="info.down.rear > 0" class="lampochka active"></div>
+                                    <div v-else class="lampochka"></div>
+                                    <div class="lampochka"></div>
+                                </div>
+                            </div>
+                            <div class="inputs__item">
+                                <div class="text">
+                                    <p>123</p>
+                                    <p>123</p>
+                                    <p>123</p>
+                                </div>
+                                <div style="background: #4e0a0b;" class="input red">
+                                    <div class="input__bg"><p>888</p></div>
+                                    <span style="color: red;">{{info.down.fast}}</span>
+                                </div>
+                                <div class="lampochki">
+                                    <div v-if="info.down.fast > 0" class="lampochka active"></div>
+                                    <div v-else class="lampochka"></div>
+                                    <div class="lampochka"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="second__item">
+                            <p>Wraith<br>ARS 2X</p>
+                            <div class="input">
+                                <div class="input__bg"><p>888</p></div>
+                                <span>{{info.up.patrol}}</span>
+                            </div>
+                            <span>patrol speed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__title">Rear Antenna</div>
+            </div>
+        </header>
+        <footer>
+            <div class="footer">
+                <div class="item">
+                    <div class="item__title">Front</div>
+                    <div class="item__num">
+                        <div class="item__num__title">
+                            <div class="first">OCT</div>
+                            <div class="second">SAN ANDREAS</div>
+                            <div class="red"></div>
+                        </div>
+                        <p>{{info.up.number}}</p>
+                    </div>
+                    <div class="text" style="opacity: 0;">text</div>
+                </div>
+                <div class="item">
+                    <div class="item__title">Rear</div>
+                    <div class="item__num"><!--style="background: #30246F; color: #CAE664;"-->
+                        <div class="item__num__title">
+                            <div class="first">OCТ</div>
+                            <div class="second">SAN ANDREAS</div>
+                            <div class="red"></div>
+                        </div>
+                        <p>{{info.down.number}}</p>
+                    </div>
+                    <div class="text" style="opacity: 0;">text</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

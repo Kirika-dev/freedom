@@ -1,0 +1,1668 @@
+﻿    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Freedom GLOBAL MENU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+			letter-spacing: 0;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #555;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ddd;
+        }
+    </style>
+	  <style>
+		[v-cloak] {
+			display: none;
+		}
+	</style>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" type="text/css" href="./fonts/PFDinDisplayPro/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="./fonts/bebas-neue/stylesheet.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+	
+    <link rel="stylesheet" href="css/docs.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/fmenu.css">
+	<link rel="stylesheet" href="css/air.css">
+    <link rel="stylesheet" href="css/weapons.css">
+	<link rel="stylesheet" href="css/biznes.css">
+	<link rel="stylesheet" href="css/allstyle.css">
+	<link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="files/css/house.css">
+	<link rel="stylesheet" href="css/presskeyto.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/autoshop.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/market.css">
+    <link rel="stylesheet" href="css/backs.css">
+    <link rel="stylesheet" href="css/pochta.css">
+    <link rel="stylesheet" href="css/input.css">
+	<link rel="stylesheet" href="css/clothes.css">
+    <link rel="stylesheet" href="css/masks.css">
+    <link rel="stylesheet" href="css/businessinfo.css">
+    <link rel="stylesheet" href="css/shop.css">
+	<link rel="stylesheet" href="css/drugmenu.css">
+    <link rel="stylesheet" href="css/org.css">
+    <link rel="stylesheet" href="css/petrol.css">
+	<link rel="stylesheet" href="./modules/Inventory/css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+</head>
+	<body v-cloak style="display: none;  background: none">
+    <div class='drugmenu' v-if="active">
+        <header class="drugmenu_header">
+            <h1>Снятие наркозависимости</h1>
+            <span>Тут вы можете избавиться от ломки</span>
+        </header>
+        <main class="drugmenu_main">
+            <div class="drugmenu_main__title">Употребление наркотиков очень вредно для вашего здоровья.<br>Наш лечащий врач поможет вам избавиться от наркозависимости.</div>
+            <div class="drugmenu_main__decor"><div class="drugmenu_frs"></div><div class="drugmenu_f" v-for="f in 4"></div><div class="drugmenu_frs"></div></div>
+
+            <div class="drugmenu_content">
+                <div class="drugmenu_content__btns">
+                    <div class="drugmenu_content_btn">
+                        <div class="drugmenu_content_btn_img"><img src="./images/drugs/1.svg" alt=""></div>
+                        <div class="drugmenu_content_btn_title">Вылечить сразу</div>
+                        <div class="drugmenu_content_btn_btn"  @click="pages(1)">Подробнее</div>
+                    </div>
+                    <div class="drugmenu_content_btn">
+                        <div class="drugmenu_content_btn_img"><img src="./images/drugs/2.svg" alt=""></div>
+                        <div class="drugmenu_content_btn_title">Пройти курс</div>
+                        <div class="drugmenu_content_btn_btn"  @click="pages(2)">Подробнее</div>
+                    </div>
+                </div>
+                <div class="drugmenu_block" v-if="page==1">
+                    <div class="drugmenu_block__title">Вылечить сразу</div>
+                    <div class="drugmenu_block__discr">Это новейшая разработка, которая позволит избавиться от наркозависимости прямо сейчас. Стоимость: 200MC</div>
+                    <div class="drugmenu_block__btns">
+                        <div class="drugmenu_block__btn" @click="btn(0)" style="background: #7E38FF">Принять</div>
+                        <div class="drugmenu_block__btn" @click="pages(0)">Отмена</div>
+                    </div>
+                </div>
+                <div class="drugmenu_block" v-if="page==2">
+                    <div class="drugmenu_block__title">Пройти курс</div>
+                    <div class="drugmenu_block__discr">Эту таблетку можно принимать раз в сутки. Спустя время вы будете полностью здоровым. Стоимость одной таблетки: 2.000.000$</div>
+                    <div class="drugmenu_block__btns">
+                        <div class="drugmenu_block__btn" @click="btn(1)" style="background: #7E38FF">Принять</div>
+                        <div class="drugmenu_block__btn" @click="pages(0)">Отмена</div>
+                    </div>
+                </div>
+            </div>
+            <div class="drugmenu_main__btn" @click="btn(2)">Выйти</div>
+        </main>      
+    </div>
+	<div class="bussinesinfo">
+		<transition-group name="opacity">
+			<div key="businesinfo" class="bussinesinfo_main" v-show="active">
+				<div @click="exit()" class="businessinfo_close">
+					<img src="./images/business/close.svg" style="poniter-events: none;">
+				</div>
+				<div v-show="owner">
+					<div class="bussinesinfo_cat">
+						<div @click="gostyle(0)" :class="{ active: page == 0 }" class="bussinesinfo_cat_block">Информация</div>
+						<div @click="gostyle(1)" :class="{ active: page == 1 }" class="bussinesinfo_cat_block">Управление</div>
+					</div>
+					<div v-show="page == 0">
+						<div class="bussinesinfo_informlist">
+							<div class="bussinesinfo_informlist_block">
+								<a>Тип</a>
+								<a>{{data[0]}}</a>
+							</div>
+							<div class="bussinesinfo_informlist_block">
+								<a>Владелец</a>
+								<a>{{data[2]}}</a>
+							</div>
+							<div class="bussinesinfo_informlist_block">
+								<a>Стоимость</a>
+								<a>{{data[3] | formatThousands}} $</a>
+							</div>
+							<div class="bussinesinfo_informlist_block">
+								<a>Касса</a>
+								<a>{{data[4] | formatThousands}} $</a>
+							</div>
+							<div class="bussinesinfo_informlist_block">
+								<a>Налог</a>
+								<a>{{data[7] | formatThousands}} $</a>
+							</div>
+							<div class="bussinesinfo_informlist_block">
+								<a>Крыша</a>
+								<a>{{data[5]}}</a>
+							</div>
+						</div>
+						<div class="bussinesinfo_btns">
+							<div @click="sell()" class="bussinesinfo_btns_block">
+								Продать
+							</div>
+						</div>
+					</div>
+				</div>
+				<div v-show="!owner"> 
+					<div class="bussinesinfo_header">Покупка бизнеса</div>
+					<div class="bussinesinfo_desc">{{data[0]}} #{{data[1]}}</div>
+					<div class="bussinesinfo_informlist">
+						<div class="bussinesinfo_informlist_block">
+							<a>Тип</a>
+							<a>{{data[0]}}</a>
+						</div>
+						<div class="bussinesinfo_informlist_block">
+							<a>Владелец</a>
+							<a>{{data[2]}}</a>
+						</div>
+						<div class="bussinesinfo_informlist_block">
+							<a>Стоимость</a>
+							<a>{{data[3] | formatThousands}} $</a>
+						</div>
+						<div class="bussinesinfo_informlist_block">
+							<a>Доход</a>
+							<a>{{data[6] | formatThousands}} $</a>
+						</div>
+						<div class="bussinesinfo_informlist_block">
+							<a>Налог</a>
+							<a>{{data[7] | formatThousands}} $</a>
+						</div>
+						<div class="bussinesinfo_informlist_block">
+							<a>Крыша</a>
+							<a>{{data[5]}}</a>
+						</div>
+					</div>
+					<div class="bussinesinfo_btns">
+						<div @click="buy()" class="bussinesinfo_btns_block">
+							Купить
+						</div>
+					</div>
+				</div>
+			</div>
+		</transition-group>
+	</div>
+    <div class='pochta' v-if="active">
+        <div class="pochta__title">
+            <h1>Получение посылок</h1>
+        </div>
+        <div class="pochta__center"></div>
+        <img src="./images/postal/logo.png" class="pochta__logo">
+        <svg class="pochta__svgl" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 482 482" style="enable-background:new 0 0 482 482;" xml:space="preserve">
+        <g>
+            <g>
+                <polygon points="279.8,244.8 258.2,257.3 258.2,482 452.7,369.7 452.7,145 		"/>
+                <polygon points="315,43.3 240.2,0 40.3,115.4 115.2,158.7 		"/>
+                <polygon points="440,115.4 353.8,66.3 154,181.7 165.4,187.6 240.2,230.8 314.6,187.9 		"/>
+                <polygon points="138.9,264.3 103.1,245.9 103.1,188.7 29.3,146.2 29.3,369.3 222.4,480.8 222.4,257.7 138.9,209.6 		"/>
+            </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+		</svg>
+        <div class="pochta__table">
+            <div class="pochta__table__header">
+                <div style="margin-left: 0vw;" class="pochta__table__item1">Отправитель</div>
+                <div style="margin-left: 2vw;" class="pochta__table__item2">Имя</div>
+                <div style="margin-left: 1vw;" class="pochta__table__item3">Дата</div>
+            </div>
+            <div class="pochta__table__main">
+                <div class="pochta__table__main__item" @click="btn(index)" :class="{ active: indexSelect == index}" v-for="(parcel, index) in parcels"><!--pochta__tableActive-->
+                    <div class="pochta__table__item1">{{parcel.Sender}}</div>
+                    <div class="pochta__table__item2">{{parcel.Name}}</div>
+                    <div class="pochta__table__item3">{{parcel.Date}}</div>
+                </div>
+            </div>
+            <div class="pochta__btns">
+                <div class="pochta_btnitem btn_esc">
+                    <a @click="exit()">ESC</a>
+                    <p>Закрыть</p>
+                </div>
+                <div style="margin-right: 10vw;" class="pochta_btnitem btn_enter">
+                    <a @click="take()">ENTER</a>
+                    <p>Получить</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div v-show="active" class="shop_menu">
+		<div class="shop_menu_center">
+			<header>
+				<h1>{{header}}</h1>
+				<p>{{street}}</p>
+			</header>
+			<div class="shop_menu_center_itemsandcat">
+				<div>
+					<div class="shop_menu_center_itemsandcat_categories">
+						<h1>Категории<div class="shop_menu_line"></div></h1>
+						<div class="shop_menu_center_itemsandcat_categories_list">
+							<div v-for="(item, index) in categories" @click="selectCat(index)" :class="{ active: selectedIndex == index }" class="shop_menu_center_itemsandcat_categories_list_item">
+								{{item}}
+							</div>
+						</div>
+						<div @click="nextCat()" class="shop_menu_center_itemsandcat_categories_right_btn">
+							<svg width="11" height="17" viewBox="0 0 11 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M1 1L9 8.5L1 16" stroke-width="2"/>
+							</svg>
+						</div>
+					</div>
+					<div class="shop_menu_center_itemsandcat_items">
+						<div @click="addToBasket(item)" v-for="(item, index) in products[selectedIndex]" class="shop_menu_center_itemsandcat_items_item">
+							<img :src="'./modules/Inventory/img/items/' + item[2] + '.png'" style="filter: blur(1vw); position: absolute; opacity: 0.5;z-index: 1;">
+							<img :src="'./modules/Inventory/img/items/' + item[2] + '.png'" style="z-index: 2">
+							<div class="shop_menu_center_itemsandcat_items_item_text">
+								<p>{{item[1]}}</p>
+								<b>${{item[3] | formatThousands}}</b>
+							</div>
+							<div class="shop_menu_center_itemsandcat_items_item_modal">
+								<svg width="60px" fill="#fff" height="60px" viewBox="-1 0 60 60" xmlns="http://www.w3.org/2000/svg"><defs><style>
+								  .cls-1 {
+									fill: #bf873e;
+									fill-rule: evenodd;
+								  }
+								</style></defs><path class="cls-1" d="M826.828,970.83A3.988,3.988,0,0,1,824,972H780v7.418a0.582,0.582,0,0,0,.582.582l2.129,0a6.971,6.971,0,0,1,12.615,0h15.383a7.009,7.009,0,1,1-.6,4H795.922a6.973,6.973,0,0,1-13.809,0H782v0h-2a4,4,0,0,1-4-4V934h-4a2,2,0,0,1,0-4h8v8h48v30A3.988,3.988,0,0,1,826.828,970.83ZM817,985.937a3,3,0,1,0-3-3A3,3,0,0,0,817,985.937Zm-28,0a3,3,0,1,0-3-3A3,3,0,0,0,789,985.937ZM792,944a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm16-20a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm16-20a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Z" data-name="shopping cart" id="shopping_cart" transform="translate(-770 -930)"/></svg>
+								<h1>Добавить в корзину</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="shop_menu_basket">
+					<a>Итого:</a>
+					<p>${{moneyall | formatThousands}}</p>
+					<div @click="buy()" class="shop_menu_basket_buybtn">Купить</div>
+					<div class="shop_menu_basket_youbasket">
+						<svg width="60px" fill="#fff" height="60px" viewBox="-1 0 60 60" xmlns="http://www.w3.org/2000/svg"><defs><style>
+						  .cls-1 {
+							fill: #bf873e;
+							fill-rule: evenodd;
+						  }
+						</style></defs><path class="cls-1" d="M826.828,970.83A3.988,3.988,0,0,1,824,972H780v7.418a0.582,0.582,0,0,0,.582.582l2.129,0a6.971,6.971,0,0,1,12.615,0h15.383a7.009,7.009,0,1,1-.6,4H795.922a6.973,6.973,0,0,1-13.809,0H782v0h-2a4,4,0,0,1-4-4V934h-4a2,2,0,0,1,0-4h8v8h48v30A3.988,3.988,0,0,1,826.828,970.83ZM817,985.937a3,3,0,1,0-3-3A3,3,0,0,0,817,985.937Zm-28,0a3,3,0,1,0-3-3A3,3,0,0,0,789,985.937ZM792,944a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm16-20a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm16-20a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Zm0,10a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2v-2Z" data-name="shopping cart" id="shopping_cart" transform="translate(-770 -930)"/></svg>
+						<b>Ваша корзина</b>
+					</div>
+					<div class="shop_menu_basket_list">
+						<div v-for="(item, index) in basket" class="shop_menu_basket_list_item">
+							<img :src="'./modules/Inventory/img/items/' + item[2] + '.png'" style="filter: blur(1vw); position: absolute; opacity: 0.5; z-index: 1">
+							<img :src="'./modules/Inventory/img/items/' + item[2] + '.png'" style="z-index: 10; position: absolute;">
+							<div class="shop_menu_center_itemsandcat_items_item_text">
+								<p>{{item[1]}}</p>
+								<b>${{item[3] * item[4] | formatThousands}}</b>
+							</div>
+							<div class="shop_menu_basket_list_item_plusminus">
+								<div @click="PlusMinusBasketItem(index, 1)" class="shop_menu_basket_list_item_plusminus_plus"><div class="shop_menu_linepl"></div><div class="shop_menu_linepl" style="width: 0.15vw; height: 100%;left: 50%; transform: translate(-50%,0); top: 0;"></div></div>
+								<a>{{item[4]}}</a>
+								<div @click="PlusMinusBasketItem(index, -1)" class="shop_menu_basket_list_item_plusminus_plus"><div class="shop_menu_linepl"></div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div v-show="active" class="postmenu">
+		<div v-show="!see" class="postmenu_postcard">
+			<div class="postmenu_card_bg">
+				<img :src="'./images/postal/bg/' + stylebg +'.jpg'" class="post_img">
+			</div>
+			<div class="postmenu_btnchange">
+				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 491.9 491.9" style="enable-background:new 0 0 491.9 491.9;" xml:space="preserve">
+				<g>
+					<g>
+						<path d="M441.249,0h-390.4c-28,0-50.8,22.8-50.8,50.8v390.4c0,28,22.8,50.7,50.7,50.7h390.4c28,0,50.7-22.8,50.7-50.7V50.8
+							C492.049,22.8,469.249,0,441.249,0z M432.349,304l-77-77c-4.3-4.3-11.4-4.3-15.7,0l-55.9,55.9l-96.7-96.7
+							c-4.3-4.3-11.4-4.3-15.7,0l-111.6,111.4V59.7h372.6V304z"/>
+						<circle cx="297.049" cy="139.9" r="42.9"/>
+					</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+				</svg>
+			</div>
+			<div class="postmenu_input_text">
+				<p><textarea maxlength="300" placeholder="Напишите письмо..." name="item3" cols="50" rows="10" v-model="input"></textarea></p>
+			</div>
+			<div class="postmenu_leftblock">
+				<p>Кому</p>
+				<input maxlength="20" placeholder="Кому..." v-model="sender" class="postmenu_sender">
+				<div class="postmenu_leftblock_block">
+					-
+				</div>
+				<div class="postmenu_leftblock_block">
+					-
+				</div>
+			</div>
+			<div @click="done()" class="postmenu_save">Сохранить</div>
+		</div>
+		<div v-show="see" class="postmenu_postcard">
+			<div class="postmenu_card_bg">
+				<img :src="'./images/postal/bg/' + stylebg +'.jpg'" class="post_img">
+			</div>
+			<div class="postmenu_input_text">
+				<p><textarea maxlength="300" name="item3" cols="50" rows="10" :value="input" readonly></textarea></p>
+			</div>
+			<div class="postmenu_leftblock">
+				<p>Кому</p>
+				<div style="margin-top: 0;"class="postmenu_leftblock_block">
+					- {{opened.to}}
+				</div>
+				<p style="margin-top: 3vw;">От</p>
+				<div class="postmenu_leftblock_block">
+					- {{opened.from}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div v-show="active" class="petrol">
+		<transition-group name="opacity">
+			<div key="modal" v-show="load.active" class="petrol_load">
+				<header>Заправка топлива</header>
+				<div class="petrol_load_line"><div :style="{width: (move * 50 / maxfuel) + 'vw'}" class="petrol_load_lineactive"></div></div>
+			</div>
+		</transition-group>
+		<div class="petrol_center">
+			<div class="petrol_header">
+				<a>ЗАПРАВОЧНАЯ СТАНЦИЯ</a>
+				<p>FREEDOM OIL</p>
+			</div>
+			<div class="petrol_main">
+				<div class="petrol_main_types">
+					<header>ТИПЫ ТОПЛИВА</header>
+					<div @click="selectType(0)" :class="{ active: type == 0 }" class="petrol_main_types_cat">
+						<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewbox="0 25 160 40" fill="url(#gradient)">
+							<linearGradient id="gradient">
+								<stop class="main-stop" offset="0%" />
+								<stop class="alt-stop" offset="100%" />
+							</linearGradient>
+							<defs><path id="wave" d="M-150 53c30.77 0 59.538-20 90-20 31.077 0 60.256 20 90 20 30.77 0 59.23-20 90-20 30.77 0 59.23 20 90 20v20h-360z"/></defs>
+							<g>
+							<use xlink:href="#wave" x="50" y="3" />
+							<use xlink:href="#wave" x="50" y="-7" />
+							</g>
+						</svg>
+						<div class="petrol_main_types_cat_bigtext">92</div>
+						<div class="petrol_main_types_cat_smalltext">Regular</div>
+					</div>
+					<div @click="selectType(1)" :class="{ active: type == 1 }" class="petrol_main_types_cat">
+						<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewbox="0 25 160 40" fill="url(#gradient2)">
+							<linearGradient id="gradient2">
+								<stop class="main-stop2" offset="0%" />
+								<stop class="alt-stop2" offset="100%" />
+							</linearGradient>
+							<defs><path id="wave" d="M-150 53c30.77 0 59.538-20 90-20 31.077 0 60.256 20 90 20 30.77 0 59.23-20 90-20 30.77 0 59.23 20 90 20v20h-360z"/></defs>
+							<g>
+							<use xlink:href="#wave" x="50" y="3" />
+							<use xlink:href="#wave" x="50" y="-7" />
+							</g>
+						</svg>
+						<div class="petrol_main_types_cat_bigtext">95</div>
+						<div style="color: #d88d4b" class="petrol_main_types_cat_smalltext">Premium</div>
+					</div>
+					<div @click="selectType(2)" :class="{ active: type == 2 }" class="petrol_main_types_cat">
+						<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewbox="0 25 160 40" fill="url(#gradient)">
+							<linearGradient id="gradient">
+								<stop class="main-stop" offset="0%" />
+								<stop class="alt-stop" offset="100%" />
+							</linearGradient>
+							<defs><path id="wave" d="M-150 53c30.77 0 59.538-20 90-20 31.077 0 60.256 20 90 20 30.77 0 59.23-20 90-20 30.77 0 59.23 20 90 20v20h-360z"/></defs>
+							<g>
+							<use xlink:href="#wave" x="50" y="3" />
+							<use xlink:href="#wave" x="50" y="-7" />
+							</g>
+						</svg>
+						<div class="petrol_main_types_cat_bigtext">ДТ</div>
+						<div style="color: #4b8ad8" class="petrol_main_types_cat_smalltext">Diesel</div>
+					</div>
+				</div>
+				<div class="petrol_main_mains">
+					<header>ФИНАЛЬНАЯ ЦЕНА</header>
+					<div class="petrol_main_mains_listnum">
+						<div v-for="i in 5" class="petrol_main_mains_listnum_num">{{getNum(i)}}</div>
+					</div>
+					<div class="petrol_main_information">
+						<a>ЦЕНА ЗА ЛИТР</a>
+						<p>{{(price * getMultiplayer()).toFixed(0)}}$</p>
+					</div>
+					<input v-model="input" class="petrol_input" type="number">
+					<div class="petrol_main_catsbuy">
+						<div class="petrol_main_headercat">ДОПОЛНИТЕЛЬНЫЕ ТОВАРЫ</div>
+						<div class="petrol_main_catsbuy_itemslist">
+							<div @click="buyOther(0)" class="petrol_main_catsbuy_item">
+								<a>Канистра</a> 
+								<p>$2000</p>
+								<img src="./images/petrol/gas.png">
+								<img src="./images/petrol/gas.png" style="filter: blur(2vw); z-index: -1;opacity: .5;">
+							</div>
+							<div @click="buyOther(1)" class="petrol_main_catsbuy_item">
+								<a>Ремонтный набор</a> 
+								<p>$3500</p>
+								<img src="./images/petrol/repair.png" class="petrol_repair">
+								<img src="./images/petrol/repair.png" class="petrol_repair" style="filter: blur(2vw); z-index: -1;opacity: .5;">
+							</div>
+						</div>
+					</div>
+					<div @click="buy()" class="petrol_main_btnbuy">ЗАПРАВИТЬ</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="logoblocks">
+		<transition-group name="opacity">
+			<div v-show="active" key="logo">
+				<img src="./modules/Auth/assets/images/logomain.png">
+				<a>добро пожаловтаь</a>
+			</div>
+		</transition-group>
+		<transition-group name="blackup">
+			<div key="black" v-show="hint" class="logoblocks_blackline" style="top: 0"></div>
+		</transition-group>
+		<transition-group name="blackup">
+			<div key="black" v-show="hint" class="logoblocks_blackline" style="bottom: 0"><p>{{allText[textIndex]}}</p></div>
+		</transition-group>
+		<transition-group name="opacity">
+			<div key="hints" v-show="hint" class="logoblocks_btn">
+				<b>SPACE</b><p>Нажмите чтобы пропустить</p>
+			</div>
+		</transition-group>
+	</div>
+	<div v-show="active" class="market_menu">
+		<header>
+			<h1>{{header}}</h1>
+			<p>{{description}}</p>
+		</header>
+		<div class="market_items">
+			<div @click="btn(index)" v-for="(item, index) in getTypePage()" class="market_items_item active">
+				<span>{{item.Name}}</span>
+				<img :src="'./modules/Inventory/img/items/' + item.ID + '.png'" class="market_img" style="z-index: 2;">
+				<img :src="'./modules/Inventory/img/items/' + item.ID + '.png'" class="market_img" style="filter: blur(1vw); z-index: 1;">
+				<b>{{item.Price | formatThousands}} {{types.money[item.Type]}}</b>
+			</div>
+			<div v-for="i in 12 - getTypePage().length" class="market_items_item disabled"></div>
+		</div>
+		<div class="market_list">
+			<div @click="gopage(0)" :class="{ active: page == 0, disabe: itemsbuy.length == 0 }" class="market_list_item">
+				<svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 width="433.5px" height="433.5px" viewBox="0 0 433.5 433.5" style="enable-background:new 0 0 433.5 433.5;" xml:space="preserve"
+					>
+				<g>
+					<g id="file-download">
+						<path d="M395.25,153h-102V0h-153v153h-102l178.5,178.5L395.25,153z M38.25,382.5v51h357v-51H38.25z"/>
+					</g>
+				</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+				</svg>
+				<span>Покупка</span>
+			</div>
+			<div @click="gopage(1)" :class="{ active: page == 1, disabe: itemssell.length == 0 }" class="market_list_item">
+				<svg style="transform: translate(-50%,-50%) rotate(180deg)" fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 width="433.5px" height="433.5px" viewBox="0 0 433.5 433.5" style="enable-background:new 0 0 433.5 433.5;" xml:space="preserve"
+					>
+				<g>
+					<g id="file-download">
+						<path d="M395.25,153h-102V0h-153v153h-102l178.5,178.5L395.25,153z M38.25,382.5v51h357v-51H38.25z"/>
+					</g>
+				</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+				</svg>
+				<span>Продажа</span>
+			</div>
+			<div @click="gopage(2)" :class="{ active: page == 2, disabe: itemsorders.length == 0 }" class="market_list_item">
+				<svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 width="433.5px" height="433.5px" viewBox="0 0 433.5 433.5" style="enable-background:new 0 0 433.5 433.5;" xml:space="preserve"
+					>
+				<g>
+					<g id="file-download">
+						<path d="M395.25,153h-102V0h-153v153h-102l178.5,178.5L395.25,153z M38.25,382.5v51h357v-51H38.25z"/>
+					</g>
+				</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+				</svg>
+				<span>Услуги</span>
+			</div>
+		</div>
+	</div>
+	<div id="metro">
+		<transition-group name="slides">
+			<div key="metro" v-show="active" class="metro">
+				<header>
+					<a>Метрополитен</a>
+					<p>Los Santos</p>
+				</header>
+				<div class="metro_list">
+					<div @click="btnselect(i)" v-for="i in 10" :class="{this: i == selectStation, inactive: i == thisStation}" class="metro_list_item">
+						<a>{{statinons[i]}}</a><p>Цена: {{price}}$</p>
+					</div>
+				</div>
+				<div class="metro_buy">
+					<h1>Покупка билета</h1>
+					<div class="metro_buy_leftinfo">
+						<a>Пункт назначения:</a>
+						<p>{{statinons[selectStation]}}</p>
+					</div>
+					<div class="metro_buy_rightinfo">
+						<a>Стоимость поездки:</a>
+						<p>{{selectStation == 0 ? 'Не определена' : price + '$'}}</p>
+					</div>
+					<div :class="{inactive: selectStation == 0}" @click="buy()" class="metro_buy_btn">Поехали</div>
+				</div>
+				<div class="metro_mapblock">
+					<div v-for="i in 11" id="metro_namesstations" :class="'metro_mapblock_station_' + i">{{statinons[i]}}<p>{{i == 11 ? 'Closed' : i == thisStation ? 'Вы тут!' : ''}}</p></div>
+					<div class="metro_verticallines">
+						<div v-for="i in 18" class="metro_verticallines_line"></div>
+					</div>
+					<div class="metro_gorizontallines">
+						<div v-for="i in 18" class="metro_gorizontallines_line"></div>
+					</div>
+					<img src="./images/metro/metromap.png" class="metro_metromap">
+				</div>
+			</div>
+		</transition-group>
+	</div>
+	<div v-show="active" class="animation">
+		<div class="animation_left">
+			<div :class="{opacityAnimation: stateSelectFast == true}" class="animation_left_cats">
+				<header>Анимации</header>
+				<input v-model="search" class="animation_left_cats_input" placeholder="Поиск..">
+				<div v-for="(item, index) in cats" @click="setCat(index)" :class="{active: index == select, walk: index == 7}" class="animation_left_cats_cat">
+					<div class="animation_left_cats_cat_num">{{index + 1}}</div>
+					<a>{{item}}</a>
+				</div>
+			</div>
+			<div class="animation_left_anims">
+				<div v-if="search == ''" v-for="(item, index) in getList(select)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(0)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(1)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(2)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(3)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(4)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(5)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(6)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(7)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+				<div v-if="search != '' && item.name.includes(search)" v-for="(item, index) in getList(8)" @click="btn(item)" class="animation_left_anims_block">
+					<a>{{item.name}}</a>
+					<p>#{{item.id + 1}}</p>
+					<img src="./images/amenu/dancing.svg">
+				</div>
+			</div>
+		</div>
+		<transition-group name="showanim">
+			<div key="play" v-show="played" class="animation_played">
+				<a>Проигрывается сейчас...</a>
+				<p v-if="selectedAnim != null">{{selectedAnim.name}}</p>
+			</div>
+		</transition-group>
+		<div class="animation_fastslots">
+			<header>
+				<h1>Быстрые анимации</h1>
+				<p>Выберите пустую ячейку ниже и кликните на ту анимацию, которую вы хотите добавить для удобства пользования</p>
+			</header>
+			<div class="animation_fastslots_help">Чтобы использовать анимацию <b>нажмите ALT + Номер слота</b></div>
+			<div @click="btnSelectSlot(i)" v-for="i in 5" :class="{none: fastSlots[i-1] == null, used: fastSlots[i-1] != null,opacityAnimation: stateSelectFast == true}" class="animation_fastslots_block">
+				<div class="animation_fastslots_slot" v-if="fastSlots[i-1] != null">
+					<div @click="removeFS(i)" class="animation_fastslots_remove">
+						<svg style="transform: rotate(45deg)" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
+						<polygon points="455,212.5 242.5,212.5 242.5,0 212.5,0 212.5,212.5 0,212.5 0,242.5 212.5,242.5 212.5,455 242.5,455 242.5,242.5 
+							455,242.5 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+						</svg>
+					</div>
+					<a>
+						{{fastSlots[i-1].name}}
+					</a>
+					<div class="animation_fastslots_numslot">#{{i}}</div>
+				</div>
+				<svg v-if="fastSlots[i-1] == null" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
+				<polygon points="455,212.5 242.5,212.5 242.5,0 212.5,0 212.5,212.5 0,212.5 0,242.5 212.5,242.5 212.5,455 242.5,455 242.5,242.5 
+					455,242.5 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+				</svg>
+			</div>
+		</div>
+	</div>
+    <div v-cloak class="orgmenu" v-if="active">
+        <header class="orgmenu_header">
+            <h1>{{data[0]}}</h1>
+            <p>Название компании</p>
+        </header>
+        <main class="orgmenu_main">
+            <div class="orgmenu_main__title">
+                Баланс компании: <span>{{data[1]}}$</span><br>Налог за компанию: <span>{{data[2]}}$/ч</span>
+            </div>
+            <div class="orgmenu_main__decor"><div class="orgmenu_frs"></div><div class="orgmenu_f" v-for="f in 4"></div><div class="orgmenu_frs"></div></div>
+            <div class="orgmenu_main__tab">
+                <div class="orgmenu_item">
+                    <div class="orgmenu_item__title">Транспорт в Вашей компании</div>
+                    <div class="orgmenu_item__content">
+                        <div class="orgmenu_content" v-for="data in cars">
+                            <p>{{ data[1] }}</p>
+                            <div class="orgmenu_btns">
+                                <div class="orgmenu_btn" v-on:click="callcars(data[0], 1)">Эвакуация</div>
+                                <div class="orgmenu_btn" v-on:click="callcars(data[0], 0)">Ключи</div>
+                                <div class="orgmenu_btn">{{data[0]}}</div>
+                                <div class="orgmenu_btn" 
+                                v-on:click="callcars(data[0], 2)"
+                                v-if="access === 1">Продать</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orgmenu_item">
+                    <div class="orgmenu_item__title">Сотрудники Вашей компании</div>
+                    <div class="orgmenu_item__content">
+                        <div class="orgmenu_input" v-if="access === 1">
+                            <input placeholder="ID" v-model="myuser">
+                            <button class="orgmenu_btn-submit" onclick="tabletorg.fak()">Принять</button>
+                        </div>
+                        <div class="orgmenu_content" v-for="data in members">
+                            <p>{{data}}</p>
+                            <span @click="callmembers(data)">Уволить</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="orgmenu_main__btns">
+                <div class="orgmenu_main__btn" style="background: #7E38FF;"v-if="access === 1" v-on:click="sell()">
+                    Продать
+                </div> 
+                <div class="orgmenu_main__btn" v-on:click="exit()">
+                    Выйти
+                </div>
+            </div>
+        </main>
+    </div>
+	<div v-if="active" class="autoshop">
+		<transition-group name="opacity">
+			<div v-show="modal" key="autoshopmodalbuy" class="autoshop_modal">
+				<div class="autoshop_modal_block">
+					<div class="autoshop_modal_block_header">Подтверждение</div>
+					<div class="autoshop_modal_block_line"></div>
+					<div class="autoshop_modal_block_text">Вы уверены что хотите купить {{allpr[indexM][0]}} за {{allpr[indexM][1] | formatThousands}} {{cur}}</div>
+					<div class="autoshop_modal_block_btns">
+						<div @click="buy()" class="autoshop_modal_block_btns_btn">Да</div>
+						<div @click="modalClose()" class="autoshop_modal_block_btns_btn">Нет</div>
+					</div>
+				</div>
+			</div>
+		</transition-group>
+		<header>{{header}}</header>
+		<div class="autoshop_left">
+			<div class="autoshop_left_marks">
+				<div v-if="selectFilter != -1" v-for="(item, index) in AllMarksAuto">
+					<div v-if="AllMarksAuto[index] == allShowMarksAuto[index2]" :class="{active: selectFilter == index}" @click="selectMark(index)" v-for="(item2, index2) in allShowMarksAuto" class="autoshop_left_marks_block">
+						<img :src="'./images/auto_marks/' + item2 + '.png'">
+					</div>
+				</div>
+			</div>
+			<div @click="changeSort()" class="autoshop_left_models_filter">
+				Сортировка по цене
+				<svg v-if="!sortState" style="transform: rotate(180deg); margin-top: -0.2vw" width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.89288 8.02182L14.5969 1.91174C14.8605 1.62957 15 1.34526 15 1.10894C15 0.652066 14.5 0.369446 13.663 0.369446L1.33503 0.369445C0.499044 0.369445 3.24602e-06 0.651709 3.2261e-06 1.10752C3.21575e-06 1.34419 0.139638 1.62396 0.403972 1.90676L6.10785 8.01968C6.47527 8.4128 6.96969 8.63051 7.50067 8.63051C8.03128 8.6306 8.52558 8.41538 8.89288 8.02182Z" fill="white"/></svg><svg v-if="sortState" width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.89288 8.02182L14.5969 1.91174C14.8605 1.62957 15 1.34526 15 1.10894C15 0.652066 14.5 0.369446 13.663 0.369446L1.33503 0.369445C0.499044 0.369445 3.24602e-06 0.651709 3.2261e-06 1.10752C3.21575e-06 1.34419 0.139638 1.62396 0.403972 1.90676L6.10785 8.01968C6.47527 8.4128 6.96969 8.63051 7.50067 8.63051C8.03128 8.6306 8.52558 8.41538 8.89288 8.02182Z" fill="white"/></svg>
+			</div>
+			<div v-if="selectFilter != -1" class="autoshop_left_models">	
+				<div v-for="(item, index) in allpr" @click="selectCar(index)" :class="{active: indexM == index}" v-if="!item[0].toUpperCase().indexOf(AllMarksAuto[selectFilter].toUpperCase())" class="autoshop_left_models_block">
+					<p>{{item[0]}}</p>
+					<a>{{item[1] | formatThousands}} {{cur}}</a>
+				</div>
+			</div>
+		</div>
+		<div class="autoshop_right">
+			<div class="autoshop_right_header">
+				<div class="autoshop_right_nameauto">{{allpr[indexM][0]}}</div>
+				<div class="autoshop_right_numbers">
+					<b>{{indCars}}</b>
+					<a>/{{maxCars}}</a>
+				</div>
+			</div>
+			<div class="autoshop_right_description">
+				{{getModelDesc(allpr[indexM][0])}}
+			</div>
+			<div class="autoshop_right_colors">
+				<p>Покраска</p>
+				<div class="autoshop_right_colors_list">
+					<div @click="selectColor(0)" class="autoshop_right_colors_list_cyl white-cycle"><div v-if="indexC == 0" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+					<div @click="selectColor(1)" class="autoshop_right_colors_list_cyl grey-cycle"><div v-if="indexC == 1" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+					<div @click="selectColor(2)" class="autoshop_right_colors_list_cyl black-cycle"><div v-if="indexC == 2" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+					<div @click="selectColor(3)" class="autoshop_right_colors_list_cyl red-cycle"><div v-if="indexC == 3" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+					<div @click="selectColor(4)" class="autoshop_right_colors_list_cyl orange-cycle"><div v-if="indexC == 4" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+					<div @click="selectColor(5)" class="autoshop_right_colors_list_cyl purple-cycle"><div v-if="indexC == 5" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+					<div @click="selectColor(6)" class="autoshop_right_colors_list_cyl blue-cycle"><div v-if="indexC == 6" class="autoshop_right_colors_list_cyl_selected"><img src="./images/autoroom/yes.svg"></div></div>
+				</div>
+			</div>
+			<div class="autoshop_right_details">
+				<a>Государственная стоимость</a>
+				<p>{{allpr[indexM][1] | formatThousands}} {{cur}}</p>
+			</div>
+			<div class="autoshop_right_details">
+				<a>Вместимость багажника</a>
+				<p>{{numpas}} кг</p>
+			</div>
+			<div class="autoshop_right_btns">
+				<div @click="testdrive()" class="autoshop_right_btns_btn">Тест-драйв</div>
+				<div @click="openBuyMenu()" class="autoshop_right_btns_btn buy">Купить</div>
+			</div>
+		</div>
+	</div>
+	<div class="license" v-if="active">
+        <img src="images/docs/back.svg" alt="" class="passport__pic1">
+        <img src="images/docs/male.png" alt="" class="passport__pic2">
+        <img src="images/docs/gerb.svg" alt="" class="passport__pic3">
+        <img src="images/docs/podp.svg" alt="" class="passport__pic4">
+        <img src="images/docs/usa2.png" alt="" class="passport__pic5">
+        <img src="images/docs/usa.png" alt="" class="passport__pic6">
+        <p class="passport__title">LOS SANTOS PENITENTIARY</p>
+        <p class="passport__subtitle">SAN ANDREAS: <span class="passport__id"> LICENSE ID</span></p>
+        <p class="passport__p"><span class="passport__p-l">Дата въезда:</span> <span class="passport__p-r" id="data_register">{{date}}</span> </p>
+        <p class="passport__p"><span class="passport__p-l">Имя:</span> <span class="passport__p-r" id="name">{{firstname}}</span></p>
+        <p class="passport__p"><span class="passport__p-l">Фамилия:</span> <span class="passport__p-r" id="second_name">{{lastname}}</span></p>
+		<p class="passport__p"> <span class="passport__p-l">Пол:</span> <span class="passport__p-r" id="job">{{gender}}</span></p>
+		<p class="passport__p"><span class="passport__p-l">Список лицензий:</span> <span class="passport__p-r" id="second_name">{{lics}}</span></p>
+        <button id="exit" @click="hide" class="passport__close"><img src="images/docs/close.svg" alt="Закрыть"></button>
+    </div>
+	<div v-show="active" v-cloak id="idcard">
+        <div class="helpbottomnoty">
+            <p>НАЖМИТЕ В ПУСТОЕ МЕСТО ЧТОБЫ ВЫЙТИ</p>
+        </div>
+        <div @click="hide()" class="idcard_exit"></div>
+        <div class="idcard_main">
+            <div class="idcard_nameplayer">{{data[1]}} <h1>{{data[2]}}#{{data[0]}}</h1></div>
+            <img v-if="data[4]" src="./images/docs/avatar-man.png" class="idcard_avatar">
+            <img v-if="!data[4]" src="./images/docs/avatar-girl.png" class="idcard_avatar">
+            <img src="./images/docs/podpis.png" class="idcard_avatar" style="margin-top: 5vw;">
+            <img v-if="data[4]" src="./images/docs/qrcodemale.png" class="idcard_qrcode">
+            <img v-else src="./images/docs/qrcodefemale.png" class="idcard_qrcode">
+            <img src="./images/docs/background.png" class="idcard_bg">
+            <img src="./images/docs/background.png" class="idcard_bg" style="filter: blur(2vw); z-index: -2;">
+            
+            <div class="idcard_block">
+                <div class="idcard_block_line"></div>
+                <div class="idcard_block_text">ЛЕТ В ШТАТЕ</div>
+                <div style="width: 11.2vw;" class="idcard_block_linewhite"></div>
+                <div class="idcard_block_text">ПОЛ</div>
+                <div class="idcard_block_textmain">{{data[3]}} ГОДА</div>
+                <div class="idcard_block_textmain right">{{data[4] ? gender[0] : gender[1]}}</div>
+            </div>
+            <div style="margin-top: 3vw;" class="idcard_block">
+                <div class="idcard_block_line"></div>
+                <div class="idcard_block_text">СЕМЕЙНОЕ ПОЛОЖЕНИЕ</div>
+                <div style="width: 9.2vw;" class="idcard_block_linewhite"></div>
+                <div v-if="data[4]" class="idcard_block_textmain">НЕ ЖЕНАТ</div>
+                <div v-if="!data[4]" class="idcard_block_textmain">НЕ ЖЕНАТА</div>
+            </div>
+            <div style="margin-top: 6vw;" class="idcard_block">
+                <div class="idcard_block_line"></div>
+                <div class="idcard_block_text">ОРГАНИЗАЦИЯ</div>
+                <div style="width: 12.6vw;" class="idcard_block_linewhite"></div>
+                <div class="idcard_block_textmain">{{data[5]}}</div>
+            </div>
+            <div style="margin-top: 6vw; left: 2.4vw;" class="idcard_block">
+                <div style="width: 2.5vw;" class="idcard_block_line"></div>
+                <div class="idcard_block_text">РАБОТА</div>
+                <div style="font-size: 0.7vw;" class="idcard_block_textmain">{{data[6]}}</div>
+            </div>
+        </div>
+    </div>
+	<div class="plastic" v-if="active">
+        <img src="images/docs/back.svg" alt="" class="passport__pic1">
+        <img src="images/docs/male.png" alt="" class="passport__pic2">
+        <img src="images/docs/gerb.svg" alt="" class="passport__pic3">
+        <img src="images/docs/podp.svg" alt="" class="passport__pic4">
+        <img src="images/docs/usa2.png" alt="" class="passport__pic5">
+        <img src="images/docs/usa.png" alt="" class="passport__pic6">
+        <p class="passport__title">LOS SANTOS PENITENTIARY</p>
+        <p class="passport__subtitle">SAN ANDREAS: <span class="passport__id"> AUTO ID</span></p>
+        <p class="passport__p"><span class="passport__p-l">Название автомобиля:</span><br><span class="passport__p-r" id="data_register">{{nameauto}}</span> </p>
+        <p class="passport__p"><span class="passport__p-l">Владелец:</span> <span class="passport__p-r" id="name">{{firstname}}</span></p>
+        <p class="passport__p"><span class="passport__p-l">Поставлено на учёт:</span> <span class="passport__p-r" id="second_name">{{dateregauto}}</span></p>
+        <p class="passport__num">{{numberauto}}</p>
+        <button id="exit" @click="hide" class="passport__close"><img src="images/docs/close.svg" alt="Закрыть"></button>
+    </div>
+	<!--удостоверения -->
+	<div class="ydovgov" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovpolice" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovems" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovfib" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovarmy" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovnews" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovmws" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<div class="ydovgr6" v-if="active">
+        <p id="number">{{number}}</p>
+        <p id="firstname">{{firstname}}</p>
+        <p id="lastname">{{lastname}}</p>
+        <p id="date">{{date}}</p>
+        <p id="gender">{{gender}}</p>
+        <p id="member">{{member}}</p>
+        <div id="exit" @click="hide"></div>
+    </div>
+	<!--удостоверения -->
+	
+	<div class="intercation">
+		<transition-group name="opacity">
+			<div v-show="active" key="iteractionmenu" class="intercation_entity">
+				<div @click="btn(1)" v-if="!boomboxplaced" class="intercation_entity_block"><a>1</a>Поставить бумбокс</div>
+				<div @click="btn(1)" v-if="boomboxplaced" class="intercation_entity_block"><a>1</a>Убрать бумбокс</div>
+				<div class="intercation_entity_block_epmty"></div>
+				<div class="intercation_entity_block_epmty"></div>
+				<div class="intercation_entity_block_epmty"></div>
+				<div @click="btn(2)" v-if="boomboxplaced" class="intercation_entity_block"><a>5</a>Установить музыку</div>
+				<div v-else class="intercation_entity_block_epmty"></div>
+				<div class="intercation_entity_block_epmty"></div>
+				<div class="intercation_entity_block_epmty"></div>
+				<div class="intercation_entity_block_epmty"></div>
+			</div>
+		</transition-group>
+	</div>
+	
+	<div class="backs" v-if="active">
+        <div class="backs_leftblock">
+			<header>
+				<a>Магазин рюкзаков</a>
+				<div class="backs_line"></div>
+				<img src="./images/clotheshop/4.png" class="backs_logotype">
+			</header>
+			<div class="backs_search">
+				<div class="backs_nameback">Рюкзаки</div>
+				<input onkeyup="backsSearch()" id="backsSearch" placeholder="Поиск">
+			</div>
+			<div class="backs_listitems">
+				<div v-for="(item, index) in styles" :class="{ active: index == indexS }" @click="btn(index)" class="backs_listitems__block">
+					<a class="backs_listitems__block__name">{{index == indexS ? getNameClothesR(parseInt(item) + '_' + indexC) : getNameClothesR(parseInt(item) + '_0')}}</a>
+				</div>
+			</div>
+			<div @click="exit()" class="backs_exit">Выйти из магазина</div>
+		</div>
+		<transition-group name="faderight">
+		<div key="rightblock" v-if="indexS > 0 || indexS == 0" class="backs_rightblock">
+			<header>{{getNameClothesR(parseInt(styles[indexS]) + '_' + indexC)}}</header>
+			<div style="position: relative; top: 1vw;"class="backs_line"></div>
+			<div class="backs_rightblock__block">
+				<a>Цвет одежды:</a>
+				<div class="backs_colorsblock">
+					<div @click="left(1)" class="backs_colorsblock__right">◂</div>
+					<div class="backs_colorsblock__text">{{colors[indexC]}}</div>
+					<div @click="right(1)" class="backs_colorsblock__left" style="float: right; position: absolute; right: 0;">▸</div>
+				</div>
+			</div>
+			<div style="margin-top: 1vw;" class="backs_rightblock__block">
+				<a>Цена:</a>
+				<p>{{prices[indexS]}}$</p>
+			</div>
+			<div @click="buy(false)" class="backs_rightblock__btnbuy">Оплатить наличными</div>
+			<div @clikc="buy(true)" class="backs_rightblock__btnbuy">Оплатить по карте</div>
+		</div>
+		</transition-group>
+    </div>
+	
+	<div class="clothes" v-if="active">
+        <div class="clothes_leftblock">
+			<header>
+				<a>Магазин одежды</a>
+				<div class="clothes_line"></div>
+				<img :src="'./images/clotheshop/' + typeBiz + '.png'" class="clothes_logotype">
+			</header>
+			<div class="clothes_search">
+				<div v-if="catId != -1" class="clothes_nameback">{{category[catId]}}</div>
+				<input v-if="catId != -1" onkeyup="clothesSearch()" id="clothesSearch" placeholder="Поиск">
+			</div>
+			<div class="clothes_listitems">
+				<div v-if="catId != -1" v-for="(item, index) in styles" :class="{ active: index == indexS }" @click="btnclothes(index)" class="clothes_listitems__block">
+					<a class="clothes_listitems__block__name">{{ index == indexS ? getNameClothesR(parseInt(item) + '_' + indexC) : getNameClothesR(parseInt(item) + '_0')}}</a>
+				</div>
+				<transition-group name="opacityFade">
+				<div :key="item" v-if="catId == -1 && (typeBiz == 1 ? index != 0 && index != 2 && index != 5 && index != 6 && index != 7 && index != 8 : true)" v-for="(item, index) in category" @click="btn(index)" class="clothes_listitems__block">
+					<a class="clothes_listitems__block__name">{{item}}</a>
+				</div>
+				</transition-group>
+			</div>
+			<div v-if="catId == -1" @click="exit()" class="clothes_exit">Выйти из магазина</div>
+			<div v-else @click="btn(-1)" class="clothes_exit">Назад</div>
+		</div>
+		<transition-group name="faderight">
+		<div key="rightblock" v-if="indexS > 0 || indexS == 0" class="clothes_rightblock">
+			<header>{{getNameClothesR(parseInt(styles[indexS]) + '_' + indexC)}}</header>
+			<div style="position: relative; top: 1vw;"class="clothes_line"></div>
+			<div class="clothes_rightblock__block">
+				<a>Цвет одежды:</a>
+				<div class="clothes_colorsblock">
+					<div @click="left(1)" class="clothes_colorsblock__right">◂</div>
+					<div class="clothes_colorsblock__text">{{colors[indexC]}}</div>
+					<div @click="right(1)" class="clothes_colorsblock__left" style="float: right; position: absolute; right: 0;">▸</div>
+				</div>
+			</div>
+			<div style="margin-top: 1vw;" class="clothes_rightblock__block">
+				<a>Цена:</a>
+				<p>{{prices[indexS] | formatThousands}}$</p>
+			</div>
+			<div @click="buy(false)" class="clothes_rightblock__btnbuy">Оплатить наличными</div>
+			<div @clikc="buy(true)" class="clothes_rightblock__btnbuy">Оплатить по карте</div>
+		</div>
+		</transition-group>
+    </div>
+	
+	<div v-if="active" class="dialog">
+		<div class="dialog__header">Предложение</div>
+		<div class="dialog__description">{{title}}</div>
+		<div class="dialog__btns">
+			<div @click="yes" class="dialog__btns__btn">Да</div>
+			<div @click="no" class="dialog__btns__btn">Нет</div>
+		</div>
+	</div>
+	
+	<div v-if="active" class="inputmenu">
+		<div class="dialog__header">{{title}}</div>
+		<input :placeholder="plholder" :maxlength="len" v-model="input">
+		<div class="dialog__btns">
+			<div @click="send" class="dialog__btns__btn">Подтвердить</div>
+			<div @click="exit" class="dialog__btns__btn">Отменить</div>
+		</div>
+	</div>
+	
+    <div class="menu">
+		<h1>Label</h1>
+		<!--div class="money"><span>100 000 $</span><p>cредств на руках</p></div-->
+		<div class="elements">
+
+		</div>
+			<div class="buttons">
+			<div id="btn1" class="btn exit" style="display:none"><i class="fas fa-times"></i></div>
+			<div id="btn3" class="btn exit big" style="display:none;"><i class="fas fa-times"></i></div>
+		</div>		
+	</div>
+	
+    <div class="atm" v-if="active">
+	
+	<div class="header">
+	<div class="no" @click="btn" id="-1">Х</div>
+	<div class="z"><img src="images/fleeca.svg"></div>
+	<div class="z"><h3>Банкомат</h3>
+	<p>У нас самые быстрые и надежные банкоматы.</p>
+	<p>Работают круглые сутки и расположены по всему штату.</p>
+	</div>
+	</div>
+	<div class="content">
+	   <div class="top">
+  			<div class="bank__number-score">Номер счета: <span>{{number}}</span></div>
+  			<div class="bank__balance">Баланс: <span>${{balance}}</span></div>
+	   </div>
+	   <div class="bank__buttons-block" v-if="type == 1">
+		<div class="sc">
+		<div @click="btn" id="0" class="block"><img src="images/log-in.svg" alt="">Внести средства</div>
+		<div @click="btn" id="1" class="block"><img src="images/log-out.svg" alt="">Вывести средства</div>
+		<div @click="btn" id="4" class="block"><img src="images/card.svg" alt="">Перевести средства</div>
+		</div>
+		<div class="sc">
+		<div @click="btn" id="2" class="block"><img src="images/house.svg" alt="">Оплатить дом</div>
+		<div @click="btn" id="3" class="block"><img src="images/case.svg" alt="">Оплатить бизнес</div>
+		<div @click="btn" id="5" class="block"><img src="images/case.svg" alt="">Оплатить компанию</div>
+		<div @click="btn" id="6" class="block"><img src="images/house.svg" alt="">Оплатить квартиру</div>
+		</div>    
+	   </div>
+	   
+	   <div class="bank__buttons-block" v-if="type == 2">
+		<div class="sc">
+		<p class="subinfo">{{subdata}}</p>
+		<input :placeholder="plholder" v-model="value" maxlength="9" placeholder="Укажите сумму...">
+		</div>
+		<div class="sc">
+		<div @click="next" id="next" class="block">Перевести</div>
+		<div @click="prev" id="prev" class="block">Отменить</div>
+		</div>    
+	   </div>
+	   
+	   <div class="bank__buttons-block vv" v-if="type == 3">
+		<div class="sc" v-for="dats in subdata">
+		<div @click="btnf(dats[1])" v-bind:id="dats[1]" class="block"><p v-bind:id="dats[1]">{{dats[0]}}</p></div>
+		</div>
+		<div class="sc">
+		<div @click="btn" id="-1" class="block">Назад</div>
+		</div>    
+	   </div>
+	   
+	   <div class="bank__buttons-block" v-if="type == 4">
+		<div class="sc">
+		<div @click="btn" id="0" class="block">Положить</div>
+		<div @click="btn" id="1" class="block">Снять</div>
+		<div @click="btn" id="-1" class="block">Назад</div>
+		</div>
+	   </div>
+	   
+	   <div class="bank__buttons-block" v-if="type == 5">
+		<div class="sc">
+		<div @click="btn" id="0" class="block">Положить</div>
+		<div @click="btn" id="1" class="block">Снять</div>
+		<div @click="btn" id="-1" class="block">Назад</div>
+		</div>
+	   </div>
+	   
+	   
+	</div>
+	
+
+    </div>
+	
+
+	
+	
+    <div class="lift" v-if="active">
+		<div class="lift__bg"></div>
+		<div class="lift__center">
+			<div class="lift__name">Лифт</div>
+			<!-- <div class="lift__list"> -->
+				<div @click="btn(0)" v-bind:class="{ active: btns[0] }" class="lift__list__block">
+					{{floors[0]}}
+				</div>
+				<div @click="btn(1)" v-bind:class="{ active: btns[1] }" class="lift__list__block">
+					{{floors[1]}}
+				</div>
+				<div v-if="floors[2] != null" @click="btn(2)" v-bind:class="{ active: btns[2] }" class="lift__list__block">
+					{{floors[2]}}
+				</div>
+				<div v-if="floors[3] != null" @click="btn(3)" v-bind:class="{ active: btns[3] }" class="lift__list__block">
+					{{floors[3]}}
+				</div>
+				<div @click="start" class="lift__list__btn">
+					На этаж
+				</div>
+				<div @click="stop" class="lift__list__exit">
+					Выйти
+				</div>
+			<!-- </div> -->
+		</div>
+	</div>
+   
+
+
+    <div class="fmenu" v-if="active">
+	<div class="head">
+	<h2>Фракционный планшет</h2> <div class="name">{{name}}</div><div @click="btn(0,$event)" class="vixod">Выйти</div><div class="online">Online: {{oncounter}} <span>/ {{counter}}</span></div>
+	</div>
+	<div class="con">
+	<div class="menue">
+	<a @click="btn(1,$event)" class="btn" v-bind:class="{active: btnactive[1]}">Члены организации</a>
+	<a @click="btn(2,$event)" class="btn" v-bind:class="{active: btnactive[2]}">Принять в организацию</a>
+	<!--a @click="btn(3,$event)" class="btn" v-bind:class="{active: btnactive[3]}">Транспорт организации</a-->
+	<a @click="btn(3,$event)" class="btn" v-bind:class="{active: btnactive[3]}">Отчёты по действиям</a>
+	<a @click="btn(7,$event)" class="btn" v-bind:class="{active: btnactive[7]}">Редактирование рангов</a>
+	</div>
+	</div>
+	<div class="content" v-show="submenu">
+	<div v-if="menu == 7" class="active">
+		<div @click="save" class="btn-submit">Сохранить</div>
+		<div v-for="(rank,index) in ranks" class="listranks">
+			<p>{{rank}} ({{index + 1}})</p>
+			<input class="newinput" placeholder="Новый ранг" v-model="newranks[index]">
+		</div>
+	</div>
+	
+	<div v-if="menu == 1" class="active">
+	<div class="head" v-if="menu == 1" class="active">
+	<div class="q1"></div>
+	<div class="q2">ID</div>
+	<div class="q3">Имя и Фамилия</div>
+	<div class="q4">Рабочая смена</div>
+	<div class="q5">Ранг</div>
+	<div class="q6">Звание</div>
+	</div>
+	<div class="us">
+	<div class="user" v-for="member in members">
+	<div v-bind:class="[ member[0] ? 'online' : 'offline' ]"><span></span></div>
+	<div class="q2">{{member[1]}}</div>
+	<div class="q3">{{member[2]}}</div>
+	<div class="q4">{{member[3]}}</div>
+	<div class="q5">{{member[5]}}</div>
+	<div class="q6">{{member[6]}}</div>
+	<div class="bt" @click="btn(4,$event)" v-bind:class="{active: btnactive[5]}">Изменить ранг</div>
+	<div class="bt" v-on:click="yvol(member[2])" v-bind:class="{active: btnactive[3]}">Уволить</div>
+	</div>
+	</div>
+	</div>
+	<div v-if="menu == 2" class="priem">
+			<h1 v-if="menu > 1">{{header[menu]}}</h1>
+            <input placeholder="Имя_Фамилия или ID" v-model="input" v-if="menu > 1">
+            <input placeholder="Новый ранг" v-model="rank" v-if="menu > 3">
+            <div @click="submit" class="btn-submit" v-if="menu > 1">{{btntext[menu]}}</div>
+	</div>
+
+	<div v-if="menu == 4" class="priem">
+			<h1>Изменить ранг</h1>
+            <input placeholder="Имя_Фамилия или ID" v-model="input" style="margin-left: 20vh;">
+            <input placeholder="Новый ранг" v-model="rank" style="margin-left: 0;">
+            <div @click="submit" class="btn-submit" style="display: block;margin: 0 auto;">Применить</div>
+	</div>
+
+	<!--div v-if="menu == 3" class="frackcars">
+	<div class="car">
+	<div class="names"><b>NBD807SC</b> Mercedes-Benz G63 AMG 6x6 | Police</div>
+	<div class="bts">Отметить на GPS</div><div class="bts">Эвакуировать</div>
+	</div>
+	<div class="car">
+	<div class="names"><b>NBD807SC</b> Mercedes-Benz G63 AMG 6x6 | Police</div>
+	<div class="bts">Отметить на GPS</div><div class="bts">Эвакуировать</div>
+	</div>
+	<div class="car">
+	<div class="names"><b>NBD807SC</b> Mercedes-Benz G63 AMG 6x6 | Police</div>
+	<div class="bts">Отметить на GPS</div><div class="bts">Эвакуировать</div>
+	</div>
+
+	</div-->
+	
+	<div v-if="menu == 3" class="stocks">
+	<div class="head">
+	<div class="q2">Время</div>
+	<div class="q3">Действие</div>
+	</div>
+	<div class="us" >
+	<div class="user" v-for="log in logs">
+	<div class="q2"><b>{{log[0]}}</b> {{log[1]}}</div>
+	<div class="q3" v-if="log[5] != null"><b> {{log[2]}}</b> {{log[5]}} <span>{{log[3]}} x{{log[4]}}</span></div>
+	<div class="q3" v-else><b>{{log[2]}}</b> взял со склада <span>{{log[3]}} x{{log[4]}}</span></div>
+	
+	</div>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+
+ 
+    <div class="mats" v-if="active">
+        <div v-if="isMed">
+            <div class="btns">
+                <div @click="load(4)" class="btn-succ">ЗАГРУЗИТЬ</div>
+                <div @click="unload(4)" class="btn-cancel">ВЫГРУЗИТЬ</div>
+            </div>
+            <div class="img hkit"></div>
+        </div>
+        <div v-else>
+            <div v-if="isArmy">
+                <div class="btns">
+                    <div @click="load(1)" class="btn-succ">ЗАГРУЗИТЬ</div>
+                    <div @click="unload(1)" class="btn-cancel">ВЫГРУЗИТЬ</div>
+                </div>
+                <div class="img army"></div>
+            </div>
+            <div v-if="!isArmy">
+                <div class="btns">
+                    <div @click="load(2)" class="btn-succ">ЗАГРУЗИТЬ</div>
+                    <div @click="unload(2)" class="btn-cancel">ВЫГРУЗИТЬ</div>
+                </div>
+                <div class="img gang"></div>
+            </div>
+            <div v-if="!isArmy">
+                <div class="btns">
+                    <div @click="load(3)" class="btn-succ">ЗАГРУЗИТЬ</div>
+                    <div @click="unload(3)" class="btn-cancel">ВЫГРУЗИТЬ</div>
+                </div>
+                <div class="img weed"></div>
+            </div>
+        </div>
+    </div>
+    
+	<div class="air" v-if="active">
+        <div class="sidebars-container">
+            <div class="left-menu">
+                <h3>Воздушный транспорт</h3>
+                <div class="list">
+                    <div v-for="(modelItem, index) in models" @click="model(index)" class="list__item">
+                        <div class="description">{{getName(models[index])}}</div>
+                        <div class="description">{{prices[index]}} {{cur}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-menu">
+				<div class="bottom-menu">
+			 <div @click="buy()" class="button green">Купить</div>
+            <div @click="exit()" class="button red">Выйти</div>  
+				</div>
+            </div>
+			    <div class="colors-menu">
+                    <div @click="color(0)" class="colors-menu__item black"></div>
+                    <div @click="color(1)" class="colors-menu__item white"></div>
+                    <div @click="color(2)" class="colors-menu__item red"></div>
+                    <div @click="color(3)" class="colors-menu__item orange"></div>
+                    <div @click="color(4)" class="colors-menu__item yellow"></div>
+                    <div @click="color(5)" class="colors-menu__item green"></div>
+                    <div @click="color(6)" class="colors-menu__item sky"></div>
+                    <div @click="color(7)" class="colors-menu__item blue"></div>
+                    <div @click="color(8)" class="colors-menu__item violet"></div>	
+                </div>
+        </div>
+    </div>
+    <div class="bsearch" v-if="active">
+        <h2>Обыск</h2>
+        <div class="list">
+            <p>Имя Фамилия: {{ name }}</p>
+            <p>Оружие:</p>
+            <ul><li v-for="w in weapons">{{ w }}</li></ul>
+            <p>Предметы инвентаря:</p>
+            <ul><li v-for="i in items">{{ i }}</li></ul>
+        </div>
+        <div class="btns">
+            <div @click="btn(1)" class="btn">Лицензии</div>
+            <div @click="btn(2)" class="btn">Паспорт</div>
+			<div @click="btn(0)" class="btn-close">Отмена</div>
+        </div>
+    </div>
+	
+    <div class="body" v-bind:class="{ tattoo: !isBarber, barber: isBarber }" v-if="active">
+        <div @click="close" class="exit"></div>
+        <div class="items" v-if="isBarber">
+            <!--Barber Shop-->
+            <bodylist id="hair" name="Прическа" color="true"></bodylist>
+            <bodylist id="beard" name="Борода" color="true"></bodylist>
+			<bodylist id="makeup" name="Мейкап"></bodylist>
+            <bodylist id="eyebrows" name="Брови" color="true"></bodylist>
+            <bodylist id="chesthair" name="Грудь" color="true"></bodylist>
+            <bodylist id="lenses" name="Линзы"></bodylist>
+            <bodylist id="lipstick" name="Помада" color="true"></bodylist>
+            <bodylist id="blush" name="Румянец" color="true"></bodylist>
+        </div>
+        <div class="items" v-if="!isBarber">
+            <!--Tattoo Shop-->
+            <bodylist id="torso" name="Торс"></bodylist>
+            <bodylist id="head" name="Голова"></bodylist>
+            <bodylist id="leftarm" name="Левая рука"></bodylist>
+            <bodylist id="rightarm" name="Правая рука"></bodylist>
+            <bodylist id="leftleg" name="Левая нога"></bodylist>
+            <bodylist id="rightleg" name="Правая нога"></bodylist>
+        </div>
+    </div>
+    <div class="weapons_buy" v-if="active">
+        <div class="left">
+            <div @click="btn(0,$event)" class="btn pistol" v-bind:class="{ active: btns[0] }"></div>
+            <div @click="btn(1,$event)" class="btn shot" v-bind:class="{ active: btns[1] }"></div>
+            <div @click="btn(2,$event)" class="btn smg" v-bind:class="{ active: btns[2] }"></div>
+            <div @click="btn(3,$event)" class="btn ammo" v-bind:class="{ active: btns[3] }"></div>
+        </div>
+        <div class="right">
+            <div class="head"></div>
+            <div class="elements">
+                <div class="block" v-for="(item, index) in items">
+                    <label>{{item[0]}}</label>
+					<div class="imm"></div>
+					<span>Цена {{item[1]}}$</span>
+                    <div @click="buy(index)" class="btn">Купить</div>
+                    
+                </div>
+                <div class="slider" v-for="(item, index) in sliders">
+                    <label>{{item[0]}}</label>
+                    <span>Кол-во <input :id="index" @input="range" type="text" :value="item[1]" step="1" :min="item[1]" :max="item[2]"> шт</span>
+                    <span>Купить за <output @click="rangebuy" :id="'wbuyslider' + index">{{item[4]}}$</output> </span>
+                </div>
+            </div>
+            <div class="buttons">
+			<div @click="btn(0,$event)" class="btn pistol" v-bind:class="{ active: btns[0] }"></div>
+            <div @click="btn(1,$event)" class="btn shot" v-bind:class="{ active: btns[1] }"></div>
+            <div @click="btn(2,$event)" class="btn smg" v-bind:class="{ active: btns[2] }"></div>
+            <div @click="btn(3,$event)" class="btn ammo" v-bind:class="{ active: btns[3] }"></div>
+                <div @click="exit" class="exit">Выход</div>
+            </div>
+        </div>
+
+    </div>
+	
+
+
+    <div class="weapons_craft" v-if="active">
+	<h1>Крафт оружия</h1>
+	<div @click="exit" class="exit"><i class="fas fa-times"></i></div>
+        <div class="left">
+            <div @click="btn(0,$event)" class="btn pistol" v-bind:class="{ active: btns[0] }">Оружие</div>
+            <!--div @click="btn(1,$event)" class="btn shot" v-bind:class="{ active: btns[1] }"></div>
+            <div @click="btn(2,$event)" class="btn smg" v-bind:class="{ active: btns[2] }"></div>
+            <div @click="btn(3,$event)" class="btn rifles" v-bind:class="{ active: btns[3] }"></div-->
+            <div @click="btn(4,$event)" class="btn ammo" v-bind:class="{ active: btns[4] }">Патроны</div>
+        </div>
+        <div class="right">
+            <div class="head"></div>
+            <div class="elements">
+                <div class="block" v-for="(item, index) in items">
+                    <label>{{item[0]}}</label>
+                    <div @click="buy(index)" class="btn">Создать</div>
+                    <span>{{item[1]}}M</span>
+                </div>
+                <div class="slider" v-for="(item, index) in sliders">
+                    <label>{{item[0]}}</label>
+                    <input :id="index" @input="range" type="range" :value="item[1]" step="1" :min="item[1]" :max="item[2]">
+                    <output @click="rangebuy" :id="'wcraftslider' + index">{{item[4]}}M</output>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div v-show="active" class="masks">
+		<header>Магазин масок<p>Портола-драйв</p></header>
+		<div class="masks_listitems">
+			<div v-for="(item, index) in styles" :class="{ active: index == indexM }" @click="select(index)" class="masks_listitems_item">
+				<a>{{prices[index] | formatThousands}}$</a>
+				<img v-show="index != indexM" :src="'https://cloud.redage.net/cloud/inventoryItems/clothes/male/masks/' + item + '_0.png'">
+				<img v-show="index == indexM" :src="'https://cloud.redage.net/cloud/inventoryItems/clothes/male/masks/' + item + '_' + indexC +'.png'">
+			</div>
+		</div>
+		<div class="masks_bg1"></div>
+		<transition-group name="faderight">
+		<div key="rightblock" v-if="indexM >= 0" class="masks_rightblock">
+			<h1>{{getNameClothesM(MasksNames, indexM + '_' + indexC)}}</h1>
+			<div style="position: relative; top: 1vw;"class="masks_line"></div>
+			<div class="masks_rightblock__block">
+				<a>Цвет одежды:</a>
+				<div class="masks_colorsblock">
+					<div @click="left()" class="masks_colorsblock__right">◂</div>
+					<div class="masks_colorsblock__text">{{colors[indexC]}}</div>
+					<div @click="right()" class="masks_colorsblock__left" style="float: right; position: absolute; right: 0;">▸</div>
+				</div>
+			</div>
+			<div style="margin-top: 1vw;" class="masks_rightblock__block">
+				<a>Цена:</a>
+				<p>{{prices[indexM] | formatThousands}}$</p>
+			</div>
+			<div @click="buy(false)" class="masks_rightblock__btnbuy">Оплатить наличными</div>
+			<div @clikc="buy(true)" class="masks_rightblock__btnbuy">Оплатить по карте</div>
+		</div>
+		</transition-group>
+		<div class="logoblocks_btn">
+			<b>ESC</b><p>Нажмите чтобы выйти</p>
+		</div>
+	</div>
+
+    <div class="house-wrapper" v-if="active">
+        <header>
+            <p>Дом #{{text[0]}}</p>
+            <div class="background">
+                <img src="./files/images/house/close.svg" alt="" @click="exit()">
+            </div>
+        </header>
+        <div class="status">
+            <div class="block" :class="{ active: text[6] === 'Открыты'}">
+                Открыт
+            </div>
+            <div class="block" :class="{ active: text[6] !== 'Открыты'}">
+                Закрыт
+            </div>
+        </div>
+        <div class="information">
+            <div class="block">
+                <p>Владелец</p> {{text[5]}}
+            </div>
+            <div class="block">
+                <p>Класс</p> 
+                <div class="stars">
+                    <svg :class="{ active: styles[text[1]] >= 5}" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z" fill="white" fill-opacity="0.24"/>
+                    </svg>
+                    <svg :class="{ active: styles[text[1]] >= 4}" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z" fill="white" fill-opacity="0.24"/>
+                    </svg>
+                    <svg :class="{ active: styles[text[1]] >= 3}" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z" fill="white" fill-opacity="0.24"/>
+                    </svg>
+                    <svg :class="{ active: styles[text[1]] >= 2}" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z" fill="white" fill-opacity="0.24"/>
+                     </svg>
+                    <svg :class="{ active: styles[text[1]] >= 1}" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.04894 2.92705C9.3483 2.00574 10.6517 2.00574 10.9511 2.92705L12.0206 6.21885C12.1545 6.63087 12.5385 6.90983 12.9717 6.90983H16.4329C17.4016 6.90983 17.8044 8.14945 17.0207 8.71885L14.2205 10.7533C13.87 11.0079 13.7234 11.4593 13.8572 11.8713L14.9268 15.1631C15.2261 16.0844 14.1717 16.8506 13.388 16.2812L10.5878 14.2467C10.2373 13.9921 9.7627 13.9921 9.41221 14.2467L6.61204 16.2812C5.82833 16.8506 4.77385 16.0844 5.0732 15.1631L6.14277 11.8713C6.27665 11.4593 6.12999 11.0079 5.7795 10.7533L2.97933 8.71885C2.19562 8.14945 2.59839 6.90983 3.56712 6.90983H7.02832C7.46154 6.90983 7.8455 6.63087 7.97937 6.21885L9.04894 2.92705Z" fill="white" fill-opacity="0.24"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="block">
+                <p>Стоимость</p> $ {{text[4]}}
+            </div>
+            <div class="block">
+                <p>Гаражных мест</p> {{text[2]}}
+            </div>
+            <div class="block">
+                <p>Жильцов</p> {{text[3]}}
+            </div>
+        </div>
+        <div class="buttons">
+            <template v-if="style == 0">
+                <div class="button" @click="enter()">
+                    Войти
+                </div>
+                <div class="button" @click="garageEnter()">
+                    Гараж
+                </div>
+            </template>
+            <template v-else>
+                <div class="button" @click="buy()">
+                    Купить
+                </div>
+                <div class="button" @click="garageEnter()">
+                    Гараж
+                </div>
+            </template>
+        </div>
+        <div class="bottom">
+            <div class="button" @click="check()">
+                Посмотреть
+            </div>
+        </div>
+    </div>
+
+<div class="death_window" v-if="active">
+<div class="loading">
+  <svg version="1.2" height="50vh" width="100vh" viewport="0 0 60 60">
+    <path id="pulsar" stroke="#a50000" fill="none" stroke-width="1"stroke-linejoin="round" d="M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210" />     
+</svg>
+</div>
+<div id="death_window">
+        <div class="text_block">{{title}}</div>
+		<div class="desc">{{nones}}</div>
+        <div class="time" id="death_window_time">{{time}}</div>
+        <div class="desc">осталось до смерти</div>
+        <div class="death_window_buttons" id="death_window_buttons_div" v-if="buttonact" >
+            <div class="death_window_button" id="death_window_first_button" @click="yes"></div>
+            <div class="death_window_button two" id="death_window_second_button" @click="no"></div>
+        </div>
+</div>
+ </div>	
+	
+	
+<div class="control" style="display: none">
+        <p>Поворот</p><output id="rotate">0</output>
+        <input id="rotate" type="range" value="0" step="1" min="0" max="360">        
+        <p>Высота</p><output id="height">0</output>
+        <input id="height" type="range" value="0" step="0.1" min="-0.7" max="0.7">       
+        <p>Дальность</p><output id="depth">0</output>
+        <input id="depth" type="range" value="1" step="0.1" min="0.5" max="1.5">       
+</div>	
+	
+	
+	<div class="infos" v-if="active">
+		<div class="header">{{answermy}}</div>
+		<div class="content"><div class="yes" v-on:click="answer()">Согласиться</div><div class="no" v-on:click="hide()">Отказаться</div>	</div>
+	</div>
+	
+	<div class="remote" v-if="active">
+		<div class="autoname">{{namecar}}</div>
+		<div class="autolock" v-on:click="interact(1)">Открыть / Закрыть</div>
+		<div class="autokey"  v-on:click="interact(2)">Запустить двигатель</div>
+		<div class="autokey1" v-on:click="interact(3)">Багажник</div>
+		<div class="autokey2" v-on:click="interact(4)">Капот</div>
+		<div class="autokey3" v-on:click="interact(5)">Двери</div>
+		<div class="autokey4" v-on:click="interact(6)"></div>
+	</div>
+   
+   
+   <div class="kpz" v-if="active">
+   <h2>{{title}}</h2>
+   <div class="stat">Указать статью: <input type="text" v-model="input"></div>
+   <div class="srok">Указать срок: <input type="text" v-model="time"></div>
+   <div class="bbt">
+   <div class="pos" @click="yes">Посадить</div>
+   <div class="unpos" @click="no">Отменить</div>
+   </div>
+   </div>
+   
+	<script>
+		Vue.filter('formatThousands', (x) => {
+		  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+		})
+	</script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popup.js"></script>
+	
+    <script src="configs/autos.js"></script>
+	
+    <script src="configs/male_accessories.js"></script>
+    <script src="configs/male_glasses.js"></script>
+    <script src="configs/male_hats.js"></script>
+    <script src="configs/male_legs.js"></script>
+    <script src="configs/male_shoes.js"></script>
+    <script src="configs/male_tops.js"></script>
+    <script src="configs/male_watches.js"></script>
+    <script src="configs/male_gloves.js"></script>
+	
+    <script src="configs/masks.js"></script>
+    <script src="configs/bags.js"></script>
+	 
+	<script src="configs/female_accessories.js"></script>
+    <script src="configs/female_glasses.js"></script>
+    <script src="configs/female_hats.js"></script>
+    <script src="configs/female_legs.js"></script>
+    <script src="configs/female_shoes.js"></script>
+    <script src="configs/female_tops.js"></script>
+    <script src="configs/female_watches.js"></script>
+    <script src="configs/female_gloves.js"></script>
+    <script src="configs/animList.js"></script>
+	
+    <script src="js/drugmenu.js"></script>
+    <script src="js/dial.js"></script>
+    <script src="js/stock.js"></script>
+    <script src="js/pc.js"></script>
+    <script src="js/docs.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/joblist.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/atm.js"></script>
+    <script src="js/lift.js"></script>
+    <script src="js/petrol.js"></script>
+    <script src="js/fmenu.js"></script>
+    <script src="js/plist.js"></script>
+    <script src="js/mats.js"></script>
+    <script src="js/auto.js"></script>
+	<script src="js/air.js"></script>
+	<script src="js/pet.js"></script>
+    <script src="js/bsearch.js"></script>
+    <script src="js/body.js"></script>
+    <script src="js/weapons.js"></script>
+    <script src="js/clothes.js"></script>
+	<script src="js/backs.js"></script>
+    <script src="js/masks.js"></script>
+    <script src="js/infobox.js"></script>
+    <script src="js/market.js"></script>
+    <script src="js/donate.js"></script>
+    <script src="js/dialog.js"></script>
+    <script src="js/animation.js"></script>
+	<script src="js/presskeyto.js"></script>
+    <script src="js/casinobet.js"></script>
+	<script src="js/info.js"></script>
+	<script src="js/house.js"></script>
+	<script src="js/licmenu.js"></script>
+	<script src="js/JobsMenus.js"></script>
+	<script src="js/death.js"></script>
+	<script src="js/rangeslider.min.js"></script>
+	<script src="js/cam.js"></script>
+	<script src="js/vehmanage.js"></script>
+	<script src="js/kpz.js"></script>
+	<script src="js/biz.js"></script>
+    <script src="js/org.js"></script>
+    <script src="js/pochta.js"></script>
+    <script src="js/businessinfo.js"></script>
+    <script src="js/shop.js"></script>
+</body>
+</html>

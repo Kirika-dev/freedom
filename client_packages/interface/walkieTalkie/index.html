@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link href="http://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" v-if="active">
+        <header>
+            <div class="antenna"></div>
+        </header>
+        <main>
+            <div class="main__btn__container">
+                <div class="main__btn" style="margin-left: .7vw;" v-if="voice"></div>
+                <div class="main__btn" v-else="voice"></div>
+            </div>
+            <div class="main__container">
+                <input type="text" v-model="input" readonly="readonly"  id="dos">
+                <div class="main__container__btns">
+                    <div class="btn" @click="inputPlus()"><p>+</p></div>
+                    <div class="btn" @click="inputMinus()"><p>-</p></div>
+                </div>
+                <div class="main__foter">
+                    <div class="floor">
+                        <div class="floor__block"></div>
+                        <div class="floor__block"></div>
+                    </div>
+                    <div class="floor">
+                        <div class="floor__block"></div>
+                    </div>
+                    <div class="floor">
+                        <div class="floor__block"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.core.min.js"></script>
+<script>
+        function playSound(music) {
+            var sound = new Howl({
+                src: ['./sounds/18558_1464791429.mp3'],
+                loop: false,
+                volume: 0.8
+            })
+            switch(music){
+                case "notalking":
+                    sound.play()
+                break;
+            }
+        }
+</script>
+</html>

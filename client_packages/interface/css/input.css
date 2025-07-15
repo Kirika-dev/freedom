@@ -1,0 +1,75 @@
+.inputmenu,
+.dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 20vw;
+	height: auto;
+	color: #fff;
+	letter-spacing: 0vw;
+	font-size: 0.8vw;
+	padding-bottom: 1vw;
+	border-radius: 0.2vw;
+	box-shadow: 0 0 4vw .1vw rgba(22,21,35);
+	font-family: Montserrat;
+	background: rgba(22,21,35, .90);
+}
+.dialog__header {
+	position: relative;
+	padding-top: 2vw;
+	font-size: 1.2vw;
+	margin-left: 1vw;
+	font-weight: 500;
+	padding-right: 1vw;
+}
+.dialog__description {
+	position: relative;
+	padding-top: 0.6vw;
+	font-size: 0.8vw;
+	margin-left: 1vw;
+	padding-right: 1vw;
+	font-weight: 400;
+}
+.dialog__btns {
+	position: relative;
+	margin-left: 1vw;
+	width: 19vw;
+	display: flex;
+	height: 3vw;
+	margin-top: 1vw;
+}
+.dialog__btns__btn:hover {
+	background: linear-gradient(48deg, #a4a4ef, #bfbffc);
+	box-shadow: 0 0 3vw 0.2vw #a4a4ef99;
+}
+.inputmenu input {
+	position: relative;
+	margin-left: 1vw;
+	width: 17vw;
+	border: none;
+	margin-top: 1vw;
+	outline: none;
+	border-radius: 0.3vw;
+	padding-left: 1vw;
+	height: 3vw;
+	background: rgb(22,21,35);
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 0.8vw;
+	font-weight: 500;
+}
+.dialog__btns__btn {
+	position: relative;
+	width: 8.5vw;
+	transition: box-shadow .2s;
+	margin-left: 1vw;
+	left: -1vw;
+	text-align: center;
+	line-height: 3vw;
+	font-size: 0.8vw;
+	font-weight: 500;
+	height: 3vw;
+	border-radius: 0.3vw;
+	background: rgb(22,21,35);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<link rel='stylesheet' href='./assets/css/styles.css'>
+<link rel="stylesheet" type="text/css" href="../../fonts/PFDinDisplayPro/stylesheet.css" />
+<script src='https://cdn.jsdelivr.net/npm/vue@2'></script>
+<title>Document</title>
+</head>
+<style>
+    [v-cloak]{
+        display: none;
+    }
+</style>
+<body>
+    <div class="wrapper" v-if="active" v-cloak>
+        <header>
+            <div class="header">
+                <div class="title">
+                    <h1>Ваш личный  транспорт</h1>
+                    <div class="subtitle">В этом меню вы можете выбрать ваш транспорт</div>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Поиск" id="mySearch" onkeyup="myFunction()"> 
+                    <img src="./assets/images/search.svg" alt="">
+                </div>
+                <div class="exit" @click="exit">
+                    <img src="./assets/images/exit.svg" alt="">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div @click="select(index)" class="main__item" v-for="(car, index) in cars">
+                    <p class="name">{{car[0]}}<br><span>{{car[1]}}</span></p>
+                    <div class="btn">Выбрать</div>
+                </div>
+                
+            </div>
+        </main>
+    </div>
+    <script src='./js/script.js'></script>
+</body>
+</html>

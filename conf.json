@@ -1,0 +1,15 @@
+{
+	"maxplayers" : 500,
+	"name" : "Freedom Project | by RAGEMP.PRO", 
+	"gamemode" : "roleplay",
+	"language" : "ru",
+	"stream-distance" : 250.0,
+	"announce" : false,
+	"enable-nodejs" : true,
+	"csharp" : true,
+	"port" : 22005,
+	"voice-chat" : true,
+	"voice-chat-sample-rate" : 24000,
+	"api-threading-debugging": false,
+	"http-threads": 250
+}

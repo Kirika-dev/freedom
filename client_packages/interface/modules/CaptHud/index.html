@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" v-if="active">
+        <div class="kill-list">
+            <div class="kill-list__item" v-for="kill in kills">
+                <div class="first" :class="[kill.frac1]">{{kill.killer}}</div>
+                <div class="img" v-if="kill.deadplayerName == 'null'">
+                    <img src="https://multiproject.pw/img/weapons/kill.svg" alt="">
+                </div>
+                <div class="img" v-else>
+                    <img class="gunImg" :src="`https://multiproject.pw/img/weapons/` + kill.weapon + `.png`" alt="kill">
+                </div>
+                <div class="second" v-if="kill.deadplayerName != 'null'" :class="[kill.frac2]">{{kill.deadplayerName}}</div>
+            </div>
+        </div>
+        <div class="biff">
+            <div style="text-align: center;">
+                <div class="biff__title">
+                    <span :class="band1Name[1]">{{band1Name[0]}}</span> VS <span :class="band2Name[1]">{{band2Name[0]}}</span>
+                </div>
+            </div>
+            <div class="progressLine" :class="[band2Name[1]+'1']">
+                <div 
+                    :class="[band1Name[1]+'1']"
+                    :style="{width: 100 / ((band1Kils + band2Kils) /  band1Kils)+'%'}"
+                ></div>
+            </div>
+            <div class="biff__info">
+                <div class="first">Убийств: {{band1Kils}}</div>
+                <div class="time">{{time}}</div>
+                <div class="first">Убийств: {{band2Kils}}</div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

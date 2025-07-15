@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="fonts/font/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/index.css">
+	 <link rel="stylesheet" type="text/css" href="../../fonts/PFDinDisplayPro/stylesheet.css" />
+	<script src="../vue.js"></script>
+	<script src="./js/library/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div v-if="active" id="app">
+	<div class="btnesc">
+		<a @click="exit()">ESC</a>
+		<p>Выйти из слежки</p>
+	</div>
+	<div class="btnesc reload">
+		<a @click="reload()">R</a>
+		<p>Обновить</p>
+	</div>
+	<div class="triugolnik"></div>
+	<div class="spectateplayer">
+		<a class="specfor">Следим за</a>
+		<div class="nameplayer"><a>{{data[0]}}</a><b>#{{data[2]}} ({{data[1]}})</b></div>
+	</div>
+	<div class="information">
+		<header>Информация</header>
+		<div class="blockinform">
+			<a>Уровень</a>
+			<p>{{data[3]}} <b>[{{data[4]}} XP]</b></p>
+		</div>
+		<div style="margin-top: 3vw;" class="blockinform">
+			<a>Пинг</a>
+			<p>{{data[5]}}</p>
+		</div>
+		<div class="blockinform">
+			<a>Дата создания</a>
+			<p>{{data[6]}}</p>
+		</div>
+		<div class="blockinform">
+			<a>Варны</a>
+			<p>{{data[7]}}</p>
+		</div>
+		<div style="margin-top: 3vw;" class="blockinform">
+			<a>Организация</a>
+			<p>{{data[8]}}</p>
+		</div>
+		<div class="blockinform">
+			<a>Должность</a>
+			<p>{{data[9]}}</p>
+		</div>
+		<div style="margin-top: 3vw;" class="blockinform">
+			<a>Работа</a>
+			<p>{{data[10]}}</p>
+		</div>
+	</div>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	-webkit-user-select: none;
+	color: #000;
+	font-family: Montserrat;
+}
+#app {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background: radial-gradient(50% 100% at 50% 50%, rgba(23, 28, 28, 0) 0%, rgba(35, 33, 55, .95) 100%); */
+	background-color: rgba(35, 33, 55, .75);
+}
+.container {
+	position: absolute;
+	right: 10vw;
+	top: 50%;
+	width: 18vw;
+	background: #fff;
+	height: auto;
+	min-height: 10vw;
+	border-radius: 1vw;
+	padding-bottom: 3vw;
+	transform: translate(0%,-50%);
+}
+.container a {
+	position: absolute;
+	width: 18vw;
+	left: 0;
+	top: 0.8vw;
+	font-weight: 500;
+	font-size: 1.2vw;
+	/* background: red; */
+	text-align: center;
+}
+.container p {
+	position: absolute;
+	width: 8vw;
+	left: 50%;
+	transform: translate(-50%,0);
+	top: 2vw;
+	opacity: 0.7;
+	font-weight: 500;
+	font-size: 0.7vw;
+	/* background: red; */
+	text-align: center;
+}
+.list {
+	position: relative;
+	/* top: 68%; */
+	margin-top: 6vw;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width: 15vw;
+	height: auto;
+}
+.block.active,
+.block:hover {
+	background: #997ffd;
+	color: #fff;
+}
+.block {
+	position: relative;
+	width: 15vw;
+	transition: background, color .1s;
+	border-radius: 0.5vw;
+	text-align: center;
+	line-height: 3vw;
+	font-weight: 500;
+	font-size: 0.8vw;
+	margin-top: 0.3vw;
+	top: -0.3vw;
+	height: 3vw;
+	background: #00000020;
+	color: #000;
+}
+.number a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 20vw;
+	height: 11.25vw;
+	transform: translate(-50%,-50%);
+	font-family: Bebas Neue;
+	color: #1e1c47;
+	z-index: 10;
+	font-weight: 500;
+	font-size: 5vw;
+	text-align: center;
+	/* background: red; */
+	line-height: 13.5vw;
+	font-weight: 600;
+}
+.number {
+	position: absolute;
+	left: 8vw;
+	width: 20vw;
+	height: 11.25vw;
+	top: 50%;
+	/* background: red; */
+	transform: translate(0,-50%);
+}
+.num {
+	position: absolute;
+	top: 0;
+	width: 20vw;
+}
+.textnum {
+	position: absolute;
+	width: 20vw;
+	top: -4vw;
+	font-size: 1.5vw;
+	font-weight: 500;
+	text-align: center;
+	color: #fff;
+}
+.btnenter {
+	position: absolute;
+	left: 50%;
+	bottom: -1.75vw;
+	width: 10vw;
+	border-radius: 0.5vw;
+	background: #997ffd;
+	height: 3.5vw;
+	transform: translate(-50%,0);
+	color: #fff;
+	text-align: center;
+	line-height: 3.5vw;
+	font-size: 0.8vw;
+	font-weight: 500;
+}
+.btnesc {
+	position: absolute;
+	right: 2vw;
+	bottom: 1vw;
+	color: #fff;
+	width: auto;
+	/* transform: translate(-50%,0); */
+	display: flex;
+}
+.btnesc a:hover,
+.btnesc.active a {
+	background: #fff;
+	color: #000;
+}
+.btnesc a {
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 0.6vw;
+	font-size: 0.8vw;
+	position: relative;
+	padding-bottom: 0.6vw;
+	height: 1vw;
+	transition: background, color .2s;
+	background: #ffffff20;
+}
+.btnesc p {
+	position: relative;
+	margin-left: 1vw;
+	font-size: 0.8vw;
+	line-height: 0.5vw;
+}

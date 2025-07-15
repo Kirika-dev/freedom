@@ -1,0 +1,879 @@
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+F:\ARCHIVOS DE SERVIDORES\mi servidor\server-files-origin-cambios\server-files\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+c:\RedAge 1.1\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\Server\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\RAGEMP\server-files\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Desktop\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\staffed\Desktop\делаю жк\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Xiaomi\Downloads\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\Users\staffed\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\nigma\Desktop\Резерв сборки 31.07\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\nigma\Desktop\Новая папка\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\serverFiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Danill\Desktop\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\sbora grey\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xiaomi\Desktop\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\ilyaS\Documents\GitHub\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+D:\GREY\GREY\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\MULTI\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\ilyaS\Documents\GitHub\MULTINEW\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+G:\RAGE FOLDER\OrleanV\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\user\Downloads\freedomrp_ragemp.pro\Freedom-Project\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Colorful.Console.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeoSmart.Hashing.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\xxHash.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Ben.Demystifier.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneE.F4019A40.Up2Date
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Servers\freedom\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb

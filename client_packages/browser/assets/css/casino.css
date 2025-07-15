@@ -1,0 +1,74 @@
+.casinochips {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 20vw;
+    height: 20.5vw;
+    background: rgb(22,21,35);
+    border-radius: .25vw;
+    z-index: 100
+}
+
+.casinochips header {
+	position: relative;
+	width: 100%;
+	height: 2vw;
+	text-align: center;
+	padding-top: .5vw;
+	font-size: .7vw
+}
+.casinochips span {
+	position: absolute;
+	top: 1.75vw;
+	left: 50%;
+	transform: translate(-50%,0);
+	border-radius: 1vw;
+	background: #438cef;
+	width: 3vw;
+	height: .2vw;
+}
+.casinochips_block:hover {
+    background: #438cef;
+}
+.casinochips_block {
+    position: relative;
+    width: 17vw;
+    left: 1vw;
+    transition: background .2s;
+    height: 2.5vw;
+    background: #ffffff10;
+    padding-left: 1vw;
+    line-height: 2.5vw;
+    font-size: .7vw;
+    margin-top: .25vw;
+    border-radius: .25vw;
+}
+.casinochips input {
+    position: relative;
+    width: 17.8vw;
+    left: 1vw;
+    height: 2.5vw;
+    background: #ffffff10;
+    text-align: center;
+    line-height: 2.5vw;
+    font-size: .7vw;
+    margin-top: 1vw;
+    border-radius: .25vw;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: Montserrat;
+}
+.casinochips_sellbtn {
+    position: relative;
+    width: 18vw;
+    left: 1vw;
+    background: #438cef;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    font-size: .7vw;
+    border-radius: .25vw;
+    margin-top: .2vw;
+}

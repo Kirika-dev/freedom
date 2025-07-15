@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\x64\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\bin\x64\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Administrator\Desktop\FiveUP1.1\dotnet\resources\NeptuneEvoSDK\obj\x64\Debug\netcoreapp3.1\NeptuneEvoSDK.csprojAssemblyReference.cache

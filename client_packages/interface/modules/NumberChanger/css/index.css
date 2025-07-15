@@ -1,0 +1,293 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	-webkit-user-select: none;
+	color: #fff;
+	font-family: Montserrat;
+}
+#app {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(50% 100% at 50% 50%, rgba(23, 28, 28, 0) 0%, rgba(35, 33, 55, .95) 100%);
+	background-color: rgba(35, 33, 55, .75);
+}
+.container {
+	
+}
+.left {
+	position: absolute;
+	left: 1vw;
+	width: 10vw;
+	height: 100%;
+}
+.left .line.bottom {
+	/* top: 0; */
+	bottom: 5vw;
+	position: absolute;
+}
+.left .line {
+	position: absolute;
+	height: 60vw;
+	width: 0.15vw; 
+	background: #fff;
+	opacity: 0.1;
+	left: 2.5vw;
+	margin-top: 5vw;
+}
+.block.active,
+.block:hover {
+	background: #fff;
+	color: #000;
+}
+.centerlines {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0,-50%);
+}
+.block {
+	position: relative;
+	width: 5vw;
+	transition: background .2s;
+	margin-top: 0.5vw;
+	top: -0.5vw;
+	border-radius: 1vw;
+	height: 5vw;
+	background: #ffffff10;
+}
+.block a {
+	position: absolute;
+	bottom: 0.5vw;
+	font-size: 0.6vw;
+	text-align: center;
+}
+.left .centrizedleft {
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	width: 5vw;
+	left: 0vw;
+	height: auto;
+	/* background: red; */
+}
+.nameblock {
+	position: absolute;
+	left: 8vw;
+	top: 3vw;
+	width: 20vw;
+}
+.nameblock a {
+	position: absolute;
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+.nameblock p {
+	font-size: 0.7vw;
+	top: 1.5vw;
+	opacity: 0.5;
+	position: absolute;
+}
+.numberblock {
+	position: absolute;
+	left: 8vw;
+	top: 45%;
+	height: 17vw;
+	/* background: red; */
+	transform: translate(0,-50%);
+
+}
+.btntake.nobg {
+	background: none;
+	z-index: -1;
+}
+.btntake p {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	font-size: 0.7vw;
+}
+.btntake {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	background: #a4a4ef;
+	z-index: 10;
+	height: 5vw;
+	width: 5vw;
+	border-radius: 0.5vw;
+	bottom: -1vw;
+}
+.texthelp {
+	position: absolute;
+	bottom: 1vw;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.texthelp p {
+	position: absolute;
+	font-size: 0.8vw;
+	opacity: 0.5;
+	left: -10vw;
+}
+.btntake .border {
+	position: absolute;
+	width: 6vw;
+	z-index: 1;
+	border-radius: 0.5vw;
+	height: 6vw;
+	border: 0.15vw solid #a4a4ef;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.num {
+	position: relative;
+	width: 30vw;
+	top: 0;
+	left: 0;
+}
+.numberblock a {
+	position: absolute;
+	font-family: Bebas Neue;
+	color: #1e1c47;
+	z-index: 10;
+	text-align: center;
+	font-weight: 600;
+	font-size: 7vw;
+	width: 30vw;
+	top: 60%;
+	transform: translate(0,-50%);
+	/* background: blue; */
+}
+.createblock {
+	position: absolute;
+	bottom: -7vw;
+	width: 20vw;
+	height: 3vw;
+}
+.createbtn {
+	background: #fff;
+	color: #000;
+	border-radius: 0.5vw;
+	width: 9vw;
+	height: 3vw;
+	text-align: center;
+	line-height: 3vw;
+	font-size: 0.8vw;
+	font-weight: 500;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.list {
+	position: absolute;
+	left: 10vw;
+	width: 9vw;
+	top: 3.3vw;
+}
+.money {
+	position: absolute;
+	left: 22vw;
+	height: 3vw;
+	top: 0;
+	/* background: red; */
+	width: 10vw;
+}
+.money p {
+	position: absolute;
+	top: -0.5vw;
+	line-height: 0;
+	/* color: #000; */
+	font-size: 1.5vw;
+	height: 3vw;
+	font-weight: 500;
+}
+.money b {
+	position: absolute;
+	bottom: 0.5vw;
+	font-size: 0.6vw;
+	font-weight: 400;
+	opacity: 0.5;
+}
+.blockcash {
+	position: relative;
+	width: 10.3vw;
+	height: 3vw;
+	background: white;
+	color: black;
+	border-radius: 0.5vw;
+	text-align: center;
+	line-height: 3vw;
+	font-size: 0.8vw;
+	margin-top: 0.4vw;
+	top: -0.4vw;
+}
+.cardormoney {
+	position: absolute;
+	left: 10vw;
+	width: 9vw;
+	border: 0.15vw solid #ffffff10;
+	height: 2.7vw;
+	padding-left: 1vw;
+	line-height: 2.7vw;
+	font-size: 0.8vw;
+	text-align: left;
+	border-radius: 0.5vw;
+}
+.block svg {
+	position: absolute;
+	width: 1.5vw;
+	opacity: 0.7;
+	left: 50%;
+	top: 1vw;
+	transform: translate(-50%,0);
+}
+.btntake svg {
+	position: absolute;
+	left: 50%;
+	height: 1.3vw;
+	top: 0.8vw;
+	width: 1.3vw;
+	transform: translate(-50%,0);
+}
+.bottomhelp {
+	position: absolute;
+	left: 8vw;
+	bottom: 2vw;
+	font-size: 0.7vw;
+	color: #ffffff40;
+	font-weight: 500;
+}
+.btnesc {
+	position: absolute;
+	right: 2vw;
+	bottom: 1vw;
+	width: auto;
+	/* transform: translate(-50%,0); */
+	display: flex;
+}
+.btnesc a:hover,
+.btnesc.active a {
+	background: #fff;
+	color: #000;
+}
+.btnesc a {
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 0.6vw;
+	font-size: 0.8vw;
+	position: relative;
+	padding-bottom: 0.6vw;
+	height: 1vw;
+	transition: background, color .2s;
+	background: #ffffff20;
+}
+.btnesc p {
+	position: relative;
+	margin-left: 1vw;
+	font-size: 0.8vw;
+	line-height: 0.5vw;
+}

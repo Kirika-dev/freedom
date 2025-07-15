@@ -1,0 +1,113 @@
+.bussinesinfo_main {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 35vw;
+	background: rgba(22,21,35);
+	height: 25vw;
+	border-radius: .5vw;
+	box-shadow: 0 0 2vw .1vw rgba(22,21,35,.50);
+	font-family: Montserrat;
+}
+.bussinesinfo_cat {
+	position: absolute;
+	left: 1vw;
+	top: 1vw;
+	width: 33vw;
+	height: 2vw;
+	display: flex;
+}
+.bussinesinfo_btns {
+	position: absolute;
+	left: 1vw;
+	bottom: 1vw;
+	width: 33vw;
+	height: 3vw;
+	display: flex;
+}
+.bussinesinfo_btns_block:hover {
+	background: #fff;
+	color: #000;
+}
+.bussinesinfo_btns_block {
+	position: relative;
+	width: 100%;
+	font-size:.8vw;
+	height: 3vw;
+	text-align: center;
+	transition: background .2s;
+	font-weight: 500;
+	background: #a4a4ef;
+	line-height: 3vw;
+	border-radius: .2vw;
+}
+.bussinesinfo_cat_block.active,
+.bussinesinfo_cat_block:hover {
+	background: #fff;
+	color: #000;
+}
+.bussinesinfo_cat_block {
+	position: relative;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	border-radius: .2vw;
+	font-size: .7vw;
+	font-weight: 500;
+	height: 2vw;
+	line-height: 2vw;
+	margin-left: 1vw;
+	left: -1vw;
+}
+.bussinesinfo_informlist {
+	position: absolute;
+	left: 1vw;
+	width: 33vw;
+	top: 4vw;
+}
+.bussinesinfo_informlist_block {
+	position: relative;
+	width: 100%;
+	height: 2.7vw;
+	line-height: 2.7vw;
+	border-bottom: .1vw solid #ffffff20;
+}
+.bussinesinfo_informlist_block a {
+	font-size: .8vw;
+}
+.bussinesinfo_informlist_block a:first-child {
+	opacity: 0.5;
+}
+.bussinesinfo_informlist_block a:last-child {
+	float: right;
+}
+.bussinesinfo_desc {
+	position: absolute;
+	top: 2.2vw;
+	left: 1vw;
+	font-size: .7vw;
+	opacity: 0.5;
+}
+.bussinesinfo_header {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+	font-size: 1vw;
+	
+}
+.businessinfo_close {
+	position: absolute;
+	top: 1vw;
+	right: 1vw;
+	width: 1.5vw;
+	height: 1.5vw;
+	border-radius: 50%;
+	background: #ffffff20;
+}
+.businessinfo_close img {
+	width: .9vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}

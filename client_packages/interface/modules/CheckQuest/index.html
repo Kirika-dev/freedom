@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>DIALOG MENU</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<script src="../vue.js"></script>
+</head>
+<style>
+	[v-cloak] {
+		display: none;
+	}
+</style>
+<body style="background: none">
+	<div v-if="active" id="app" v-cloak>
+		<div class="maincenter">
+			<div class="name">
+				<a>Первая зелень</a>
+				<b><h1></h1>Сюжетное</b>
+			</div>
+			<div class="descript">
+				<label>Описание</label>
+				<a>{{qtext[questnum][0]}}</a>
+			</div>
+			<div class="allquests">
+				<label>Задачи</label>
+				<div class="list">
+					<div v-for="(item, index) in quests[questnum]" class="bl">
+						<div class="cyl"></div>
+						<a>{{item}}</a>
+					</div>
+				</div>
+			</div>
+			<div class="prize">
+				<label>Награда</label>
+				<div v-if="money != 0" class="money">
+					<a>{{money}} <b>$</b></a>
+				</div>
+				<div v-if="exp != 0" class="exp">
+					<a>{{exp}}<img src="./exp.svg" class="icoexp"></a>
+				</div>
+			</div>
+			<div class="prizeitems">
+				<div>
+					<label>Дополнительная награда</label>
+					<div class="slots">
+						<div v-for="item in itemsbonus">
+							<div v-if="item != 0" class="slot active">
+								<!-- <img src="./603.png" class="item"> -->
+								<img :src="`../../assets/images/icons/items/`+ item + `.png`" class="item">
+							</div>
+							<div v-else class="slot">
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="margin-left: 20vw;">
+					<label>Опц. награда</label>
+					<div class="slots">
+						<div v-for="item in itemsbonustwo">
+							<div v-if="item != 0" class="slot active">
+								<!-- <img src="./603.png" class="item"> -->
+								<img :src="`../../assets/images/icons/items/`+ item + `.png`" class="item">
+							</div>
+							<div v-else class="slot">
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div @click="take()" class="pressenter">
+			<a>ENTER</a><p>Выбрать</p>
+		</div>
+		<div @click="exit()" class="pressesc">
+			<a>ESC</a><p>Закончить диалог</p>
+		</div>
+	</div>
+    <script src="./js/index.js"></script>
+	<script src="./js/library/jquery-3.2.1.min.js"></script>
+</body>
+</html>

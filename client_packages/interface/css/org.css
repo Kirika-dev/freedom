@@ -1,0 +1,241 @@
+
+.orgmenu {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 48vw;
+  height: 35vw;
+  background: rgba(22,21,35);
+  border-radius: 0.2vw;
+}
+
+.orgmenu .orgmenu_header {
+  width: 100%;
+  height: 6.5vw;
+  background: url("../images/header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.orgmenu .orgmenu_header h1 {
+  color: #fff;
+  text-shadow: 0px 0px 1vw rgba(255, 255, 255, 0.6);
+  font-weight: 800;
+  font-size: 3.1vw;
+  padding-top: .6vw;
+}
+
+.orgmenu .orgmenu_header p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
+  font-size: 1.1vw;
+}
+
+.orgmenu .orgmenu_main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.orgmenu .orgmenu_main__title {
+  margin: 0 auto;
+  padding-top: 2vw;
+  color: rgba(255, 255, 255, 0.911);
+  font-size: 1vw;
+  text-align: center;
+  font-weight: 600;
+}
+
+.orgmenu .orgmenu_main__title span {
+  color: #7E38FF;
+}
+
+.orgmenu .orgmenu_main__tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1vw;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item {
+  height: 16vw;
+  width: 33%;
+  background: #ffffff10;
+  padding: .7vw;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item__title {
+  font-size: .8vw;
+  font-weight: 700;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: .5vw;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content p {
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content span {
+  display: block;
+  font-size: .6vw;
+  font-weight: 500;
+  padding: .4vw 1vw;
+  background: #ffffff10;
+  border-radius: .2vw;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content span:hover {
+  background: #7E38FF;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content .orgmenu_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content .orgmenu_btns .orgmenu_btn {
+  display: block;
+  font-size: .7vw;
+  font-weight: 500;
+  padding: .3vw .5vw;
+  background: #ffffff10;
+  border-radius: .2vw;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-left: .2vw;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_content .orgmenu_btns .orgmenu_btn:hover {
+  background: #7E38FF;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: .7vw 0;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_input input {
+  width: 60%;
+  height: 1.8vw;
+  background: #ffffff10;
+  border: none;
+  outline: none;
+  border-radius: 0.2vw;
+  color: #fff;
+  padding: .12vw;
+  font-weight: 500;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_input button {
+  width: 37%;
+  height: 1.8vw;
+  background: #ffffff10;
+  border: none;
+  outline: none;
+  color: #fff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item .orgmenu_input button:hover {
+  background: #7E38FF;
+}
+
+.orgmenu .orgmenu_main__tab .orgmenu_item:first-child {
+  width: 65%;
+}
+
+.orgmenu .orgmenu_main__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5vw;
+}
+
+.orgmenu .orgmenu_main__btn {
+  margin: 0 auto;
+  width: 8vw;
+  height: 2.7vw;
+  font-size: .9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffffff10;
+  border-radius: 0.2vw;
+  font-weight: 400;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.orgmenu .orgmenu_main__btn:hover {
+  color: rgba(255, 255, 255, 0.664);
+}
+
+.orgmenu .orgmenu_main__decor {
+  margin: 0 auto;
+  margin-top: 1.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.orgmenu .orgmenu_main__decor .orgmenu_frs {
+  height: .2vw;
+  width: 12vw;
+  background: #5225A5;
+}
+
+.orgmenu .orgmenu_main__decor .orgmenu_f {
+  height: .2vw;
+  width: .2vw;
+  border-radius: 50%;
+  background: #5225A5;
+  margin: 0 .5vw;
+}
+/*# sourceMappingURL=styles.css.map */

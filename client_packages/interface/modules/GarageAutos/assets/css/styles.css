@@ -1,0 +1,240 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+   -webkit-user-select: none;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: ''PF DinDisplay Pro'';
+  src: url("../font/'PF DinDisplay Pro'-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ''PF DinDisplay Pro'';
+  src: url("../font/'PF DinDisplay Pro'-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ''PF DinDisplay Pro'';
+  src: url("../font/'PF DinDisplay Pro'-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ''PF DinDisplay Pro'';
+  src: url("../font/'PF DinDisplay Pro'-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 54vw;
+  height: 68.3vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #030303;
+  border-radius: .7vw;
+  padding: 0 4.6vw;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2.8vh;
+}
+
+.header .title h1 {
+  color: #FFFFFF;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5vw;
+}
+
+.header .title .subtitle {
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9vw;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header .search {
+  position: relative;
+  margin-left: 3vw;
+}
+
+.header .search input {
+  width: 13.1vw;
+  height: 3.5vh;
+  padding-left: .5vw;
+  background: #1D1D1D;
+  border-radius: 2.7vh;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: 'PF DinDisplay Pro';
+  font-size: .8vw;
+}
+
+.header .search img {
+  position: absolute;
+  width: 1.9vh;
+  height: 1.9vh;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  right: .5vw;
+}
+
+.header .exit {
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+  width: 3.2vh;
+  height: 3.2vh;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  transition: all 0.2s;
+}
+
+.header .exit img {
+  max-width: 2vh;
+  max-height: 2vh;
+  opacity: .8;
+}
+.header .exit img:hover {
+  opacity: 1;
+}
+
+@-webkit-keyframes item {
+  from {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+}
+
+@keyframes item {
+  from {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+}
+
+.main {
+  max-height: 52vh;
+  overflow-y: scroll;
+  margin-top: 3.2vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main__item {
+  overflow: hidden;
+  width: 13.7vw;
+  height: 9.8vh;
+  position: relative;
+  background: #1D1D1D;
+  border-radius: .2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  /* -webkit-transition: all 0.3s; */
+  /* transition: all 0.3s; */
+  margin-bottom: 2.4vh;
+  -webkit-animation: item .3s ease;
+          animation: item .3s ease;
+}
+
+.main__item p {
+  color: #FFFFFF;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+}
+
+.main__item p span {
+  font-weight: 300;
+}
+
+.main__item:hover .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__item .btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #7E38FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-family: 'PF DinDisplay Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25vw;
+  /* -webkit-transition: all 0.3s; */
+  /* transition: all 0.3s; */
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
